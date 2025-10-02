@@ -1,0 +1,99 @@
+<mvc:View
+    controllerName="app.projbhughes.controller.MasterView"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page id="page">
+        <customHeader>
+            <Bar>
+                <contentLeft>
+                    <Image
+                        src="/images/logo.png"
+                        width="100px"
+                        height="20px"
+                    />
+                </contentLeft>
+                <contentMiddle>
+                    <Title text="{i18n>title}" />
+                </contentMiddle>
+            </Bar>
+        </customHeader>
+        <ScrollContainer
+            id="scrollContainer"
+            horizontal="true"
+            vertical="false"
+            width="100%"
+            height="auto"
+            class="scrollContainerWithPadding"
+        >
+            <Table
+                id="equipmentTable"
+                items="{eqModel>/equipment}"
+                mode="SingleSelectMaster"
+                itemPress="onItemPress"
+                fixedLayout="false"
+                width="150%"
+                class="styledTable"
+            >
+                <columns>
+                    <Column width="5rem">
+                        <Text text="{i18n>MPno}" />
+                    </Column>
+                    <Column width="10rem">
+                        <Text text="{i18n>EqNo}" />
+                    </Column>
+                    <Column width="30rem">
+                        <Text text="{i18n>EqDesc}"  />
+                    </Column>
+                    <Column width="13rem">
+                        <Text text="{i18n>Mat}" />
+                    </Column>
+                    <Column width="10rem">
+                        <Text text="{i18n>objtype}" />
+                    </Column>
+   
+                </columns>
+                <items>
+                    <ColumnListItem type="Active">
+                        <cells>
+                            <Text
+                                text="{eqModel>general/manufacturer_part_no}"
+                                class="tableCell"
+                            />
+                            <Text
+                                text="{eqModel>equipment_number}"
+                                class="tableCell"
+                            />
+                            <Text
+                                text="{eqModel>equipment_description}"
+                                class="tableCell"
+                            />
+                            <Text
+                                text="{eqModel>material}"
+                                class="tableCell"
+                            />
+                            <Text
+                                text="{eqModel>general/object_type}"
+                                class="tableCell"
+                            />
+                            
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </ScrollContainer>
+        <Button
+            icon="sap-icon://navigation-right-arrow"
+            press="onScrollRight"
+            tooltip="Scroll Right"
+            class="scrollRightButton"
+        />
+        <Button
+            icon="sap-icon://navigation-left-arrow"
+            press="onScrollLeft"
+            tooltip="Scroll Left"
+            class="scrollLeftButton"
+            visible="{scrollModel>/showLeftScroll}"
+        />
+    </Page>
+</mvc:View>

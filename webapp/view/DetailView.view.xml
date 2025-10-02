@@ -1,0 +1,148 @@
+<mvc:View
+  controllerName="app.projbhughes.controller.DetailView"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:layout="sap.ui.layout.form"
+  xmlns:core="sap.ui.core"
+  xmlns="sap.m">
+
+  <Page showHeader="false" class="detailPage">
+
+    <!-- Custom Header -->
+    <VBox class="customHeader">
+      <HBox justifyContent="SpaceBetween" class="topBar">
+        <Image src="/images/mky-logo.png" width="200px" height="30px"/>
+        <HBox>
+          <Button icon="sap-icon://search" type="Transparent"/>
+          <Button icon="sap-icon://employee" type="Transparent"/>
+        </HBox>
+      </HBox>
+      <HBox class="titleBar" justifyContent="Center">
+        <Title text="Equipment Data Display" level="H2"/>
+      </HBox>
+    </VBox>
+
+
+
+
+
+
+
+
+
+
+
+  
+      <layout:SimpleForm
+        editable="false"
+        layout="ResponsiveGridLayout"
+        labelSpanM="3" columnsM="2"
+        class="equipmentForm">
+
+        <Label text="Equipment"/>
+        <Input value="{eqModel>equipment_number}"/>
+
+        <Label text="Category"/>
+        <Input value="{eqModel>category}"/>
+
+        <Label text="Description"/>
+        <Input value="{eqModel>equipment_description}" wrapping="true"/>
+
+        <Label text="System Status"/>
+        <Input value="{eqModel>status/system_status}"/>
+
+        <Label text="User Status"/>
+        <ComboBox selectedKey="{eqModel>status/user_status}">
+          <items>
+            <core:Item key="AVLB" text="AVLB"/>
+            <core:Item key="INST" text="INST"/>
+          </items>
+        </ComboBox>
+
+      </layout:SimpleForm>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Tabs Section -->
+    <IconTabBar class="detailITB" expandable="false">
+      <items>
+
+        <IconTabFilter text="General">
+            <layout:SimpleForm editable="false">
+              <Label text="Object Type" />
+              <Input value="{eqModel>general/object_type}" />
+
+              <Label text="Manufacturer" />
+              <Input value="{eqModel>general/manufacturer}" />
+
+              <Label text="Model No" />
+              <Input value="{eqModel>general/model_no}" />
+
+              <Label text="Construction Year" />
+              <Input value="{eqModel>general/construction_year}" />
+
+              <Label text="Construction Month" />
+              <Input value="{eqModel>general/construction_month}" />
+            </layout:SimpleForm>
+        </IconTabFilter>
+
+        <IconTabFilter text="Location">
+          <layout:SimpleForm
+            editable="false"
+            layout="ResponsiveGridLayout"
+            labelSpanM="3" columnsM="2"
+            class="detailForm">
+
+            <Label text="MaintPlant"/>
+            <Input value="{eqModel>location/maint_plant}"/>
+
+            <Label text="Room"/>
+            <Input value="{eqModel>location/room}"/>
+
+            <Label text="Work Center"/>
+            <Input value="{eqModel>location/work_center}"/>
+
+            <Label text="Sort Field"/>
+            <Input value="{eqModel>location/sort_field}"/>
+
+            <Label text="Functional Loc."/>
+            <Input value="{eqModel>location/functional_location}"/>
+          </layout:SimpleForm>
+        </IconTabFilter>
+
+        <IconTabFilter text="Organization">
+                    <layout:SimpleForm editable="false">
+              <Label text="Company Code" />
+              <Input value="{eqModel>organization/account_assignment/company_code}" />
+
+              <Label text="Cost Center" />
+              <Input value="{eqModel>organization/account_assignment/cost_center}" />
+
+              <Label text="Planner Group" />
+              <Input value="{eqModel>organization/responsibilities/planner_group}" />
+            </layout:SimpleForm>
+        </IconTabFilter>
+
+      </items>
+    </IconTabBar>
+
+    <!-- Save Button -->
+    <HBox justifyContent="End" class="saveBar">
+      <Button text="Save" type="Emphasized" class="saveButton"/>
+    </HBox>
+
+  </Page>
+</mvc:View>
