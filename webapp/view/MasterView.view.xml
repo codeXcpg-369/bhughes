@@ -42,7 +42,7 @@
                     <Column width="10rem">
                         <Text text="{i18n>EqNo}" />
                     </Column>
-                    <Column width="30rem">
+                    <Column width="25rem">
                         <Text text="{i18n>EqDesc}"  />
                     </Column>
                     <Column width="13rem">

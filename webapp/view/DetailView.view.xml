@@ -1,24 +1,134 @@
 <mvc:View
   controllerName="app.projbhughes.controller.DetailView"
   xmlns:mvc="sap.ui.core.mvc"
+  xmlns:l="sap.ui.layout"
   xmlns:layout="sap.ui.layout.form"
   xmlns:core="sap.ui.core"
-  xmlns="sap.m">
-
-  <Page showHeader="false" class="detailPage">
-
+  xmlns="sap.m"
+>
+  <Page
+    showHeader="false"
+    class="detailPage"
+  >
     <!-- Custom Header -->
     <VBox class="customHeader">
-      <HBox justifyContent="SpaceBetween" class="topBar">
-        <Image src="/images/mky-logo.png" width="200px" height="30px"/>
-        <HBox>
-          <Button icon="sap-icon://search" type="Transparent"/>
-          <Button icon="sap-icon://employee" type="Transparent"/>
+      <HBox
+        justifyContent="SpaceBetween"
+        class="topBar"
+      >
+        <HBox
+          alignItems="Center"
+          class="leftHeader"
+        >
+          <Button
+            icon="sap-icon://nav-back"
+            type="Transparent"
+            press="onNavBack"
+          />
+          <Image
+            src="/images/mky-logo.png"
+            height="40px"
+            width="200px"
+            class="roundedLogo"
+          />
+          <Text
+            text="Material Manager"
+            class="HText"
+          />
+        </HBox>
+        <HBox
+          alignItems="Center"
+          class="rightHeader"
+        >
+          <Button
+            icon="sap-icon://search"
+            type="Transparent"
+          />
+          <Button
+            icon="sap-icon://employee"
+            type="Transparent"
+          />
         </HBox>
       </HBox>
-      <HBox class="titleBar" justifyContent="Center">
-        <Title text="Equipment Data Display" level="H2"/>
-      </HBox>
+<HBox class="titleBar" alignItems="Center">
+  <HBox width="33%"></HBox>
+
+  <HBox width="33%" justifyContent="Center">
+    <Title text="Equipment Data Display" level="H2"/>
+  </HBox>
+  <HBox width="33%" justifyContent="End">
+    <Button id="modeToggleBtn" text="Display" press="onToggleMode" class="btntog"/>
+  </HBox>
+</HBox>
+    </VBox>
+
+     
+    <VBox
+      width="100%"
+      class="sapUiSmallMargin"
+    >
+      <layout:SimpleForm
+        id="SimpleFormToolbar"
+        editable="{viewModel>/isEditable}"
+        layout="ResponsiveGridLayout"
+        labelSpanXL="4"
+        labelSpanL="3"
+        labelSpanM="4"
+        labelSpanS="12"
+        adjustLabelSpan="false"
+        emptySpanXL="0"
+        emptySpanL="4"
+        emptySpanM="0"
+        emptySpanS="0"
+        columnsXL="2"
+        columnsL="1"
+        columnsM="1"
+        singleContainerFullSize="false"
+        ariaLabelledBy="Title1"
+      >
+        <layout:content>
+          <Toolbar ariaLabelledBy="Title2">
+            <Title
+              id="Title2"
+              text=""
+            />
+            <ToolbarSpacer />
+            <Button icon="" />
+          </Toolbar>
+          <Label text="Equipment" />
+          <Input value="{eqModel>equipment_number}" editable="{viewModel>/isEditable}" />
+          <Label text="Category" />
+          <Input value="{eqModel>general/auth_group}" editable="{viewModel>/isEditable}" />
+          <Label text="Description" />
+          <Input value="{eqModel>equipment_description}" editable="{viewModel>/isEditable}" />
+          <Toolbar ariaLabelledBy="Title3">
+            <Title
+              id="Title3"
+              text=""
+            />
+            <ToolbarSpacer />
+            <Button icon="" />
+          </Toolbar>
+          <Label text="System Status" />
+          <Input value="{eqModel>status/system_status}" editable="{viewModel>/isEditable}" />
+          <Label text="User Status" />
+          <Select
+            id="status"
+            selectedKey="{eqModel>status/user_status}"
+          >
+            <items>
+              <core:Item
+                key="AVLB"
+                text="AVLB"
+              />
+              <core:Item
+                key="INST"
+                text="INST"
+              />
+            </items>
+          </Select>
+        </layout:content>
+      </layout:SimpleForm>
     </VBox>
 
 
@@ -31,118 +141,204 @@
 
 
 
-  
-      <layout:SimpleForm
-        editable="false"
-        layout="ResponsiveGridLayout"
-        labelSpanM="3" columnsM="2"
-        class="equipmentForm">
 
-        <Label text="Equipment"/>
-        <Input value="{eqModel>equipment_number}"/>
 
-        <Label text="Category"/>
-        <Input value="{eqModel>category}"/>
 
-        <Label text="Description"/>
-        <Input value="{eqModel>equipment_description}" wrapping="true"/>
-
-        <Label text="System Status"/>
-        <Input value="{eqModel>status/system_status}"/>
-
-        <Label text="User Status"/>
-        <ComboBox selectedKey="{eqModel>status/user_status}">
-          <items>
-            <core:Item key="AVLB" text="AVLB"/>
-            <core:Item key="INST" text="INST"/>
-          </items>
-        </ComboBox>
-
-      </layout:SimpleForm>
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Tabs Section -->
-    <IconTabBar class="detailITB" expandable="false">
+    <IconTabBar
+      class="detailITB"
+      expandable="false"
+    >
       <items>
-
         <IconTabFilter text="General">
-            <layout:SimpleForm editable="false">
-              <Label text="Object Type" />
-              <Input value="{eqModel>general/object_type}" />
+  <VBox>
+    <HBox>
+      <VBox width="50%">
+        <Title class="htex" text="General Data" />
+        <layout:SimpleForm editable="{viewModel>/isEditable}">
+          <Label text="Object Type" />
+          <Input value="{eqModel>general/object_type}" editable="{viewModel>/isEditable}" />
 
-              <Label text="Manufacturer" />
-              <Input value="{eqModel>general/manufacturer}" />
+          <Label text="Authoriz Group" />
+          <Input value="{eqModel>general/auth_group}" editable="{viewModel>/isEditable}" />
 
-              <Label text="Model No" />
-              <Input value="{eqModel>general/model_no}" />
+          <Label text="Weight" />
+          <Input value="{eqModel>general/weight}" editable="{viewModel>/isEditable}" />
 
-              <Label text="Construction Year" />
-              <Input value="{eqModel>general/construction_year}" />
+          <Label text="Size/Dimension" />
+          <Input value="{eqModel>general/size}" editable="{viewModel>/isEditable}" />
 
-              <Label text="Construction Month" />
-              <Input value="{eqModel>general/construction_month}" />
-            </layout:SimpleForm>
-        </IconTabFilter>
+          <Label text="Inventory No." />
+          <Input value="{eqModel>general/inventory_no}" editable="{viewModel>/isEditable}" />
+        </layout:SimpleForm>
+      </VBox>
 
-        <IconTabFilter text="Location">
-          <layout:SimpleForm
-            editable="false"
-            layout="ResponsiveGridLayout"
-            labelSpanM="3" columnsM="2"
-            class="detailForm">
+      <VBox width="50%">
+        <Title class="htex" text="Manufacturer Data" />
+        <layout:SimpleForm editable="{viewModel>/isEditable}">
+          <Label text="Manufacturer" />
+          <Input value="{eqModel>general/manufacturer}" editable="{viewModel>/isEditable}" />
 
-            <Label text="MaintPlant"/>
-            <Input value="{eqModel>location/maint_plant}"/>
+          <Label text="Manufacturer Country" />
+          <Input value="{eqModel>general/manufacturer_country}" editable="{viewModel>/isEditable}" />
 
-            <Label text="Room"/>
-            <Input value="{eqModel>location/room}"/>
+          <Label text="Model No." />
+          <Input value="{eqModel>general/model_no}" editable="{viewModel>/isEditable}" />
 
-            <Label text="Work Center"/>
-            <Input value="{eqModel>location/work_center}"/>
+          <Label text="Constry.yr/mth" />
+          <HBox>
+            <Input value="{eqModel>general/construction_year}" editable="{viewModel>/isEditable}" width="70%" />
+            <Input value="{eqModel>general/construction_month}" editable="{viewModel>/isEditable}" width="70%" />
+          </HBox>
 
-            <Label text="Sort Field"/>
-            <Input value="{eqModel>location/sort_field}"/>
+          <Label text="Manufacturer Part No." />
+          <Input value="{eqModel>general/manufacturer_part_no}" editable="{viewModel>/isEditable}" />
 
-            <Label text="Functional Loc."/>
-            <Input value="{eqModel>location/functional_location}"/>
-          </layout:SimpleForm>
-        </IconTabFilter>
+          <Label text="Manufacturer srINo." />
+          <Input value="{eqModel>general/manufacturer_serial_no}" editable="{viewModel>/isEditable}" />
+        </layout:SimpleForm>
+      </VBox>
+    </HBox>
 
-        <IconTabFilter text="Organization">
-                    <layout:SimpleForm editable="false">
-              <Label text="Company Code" />
-              <Input value="{eqModel>organization/account_assignment/company_code}" />
+   
+    <HBox>
+      <VBox width="50%">
+        <Title class="htex" text="Reference Data" />
+        <layout:SimpleForm editable="{viewModel>/isEditable}">
+          <Label text="Acquisition Date" />
+          <DatePicker value="{eqModel>general/acquisition_date}" displayFormat="yyyy-MM-dd" editable="{viewModel>/isEditable}" />
+        </layout:SimpleForm>
+      </VBox>
 
-              <Label text="Cost Center" />
-              <Input value="{eqModel>organization/account_assignment/cost_center}" />
+      <VBox width="50%">
+        <Title class="htex" text="General" />
+        <layout:SimpleForm editable="{viewModel>/isEditable}">
+          <Label text="Material" />
+          <Input value="{eqModel>general/material}" editable="{viewModel>/isEditable}" />
+          <Label text="Delivery Date" />
+          <DatePicker value="{eqModel>general/delivery_date}" displayFormat="yyyy-MM-dd" editable="{viewModel>/isEditable}" />
+        </layout:SimpleForm>
+      </VBox>
+    </HBox>
+  </VBox>
+</IconTabFilter>
 
-              <Label text="Planner Group" />
-              <Input value="{eqModel>organization/responsibilities/planner_group}" />
-            </layout:SimpleForm>
-        </IconTabFilter>
+
+
+
+
+<IconTabFilter text="Location">
+  <VBox>
+    <HBox>
+
+      <VBox width="50%">
+        <Title class="htex" text="Location Data" />
+        <layout:SimpleForm editable="{viewModel>/isEditable}">
+          <Label text="MaintPlant" />
+          <Input value="{eqModel>location/maint_plant}" editable="{viewModel>/isEditable}" />
+
+          <Label text="Room" />
+          <Input value="{eqModel>location/room}" editable="{viewModel>/isEditable}" />
+
+          <Label text="Work Center" />
+          <Input value="{eqModel>location/work_center}" editable="{viewModel>/isEditable}" />
+
+          <Label text="Sort Field" />
+          <Input value="{eqModel>location/sort_field}" editable="{viewModel>/isEditable}" />
+        </layout:SimpleForm>
+      </VBox>
+
+      <VBox width="50%">
+        <Title class="htex" text="Structuring" />
+        <layout:SimpleForm editable="{viewModel>/isEditable}">
+          <Label text="Functional Loc." />
+          <Input value="{eqModel>location/functional_location}" editable="{viewModel>/isEditable}" />
+        </layout:SimpleForm>
+      </VBox>
+    </HBox>
+  </VBox>
+</IconTabFilter>
+
+
+
+
+
+<IconTabFilter text="Organization">
+  <VBox>
+    <HBox>
+
+      <VBox width="50%">
+        <Title class="htex"  text="Account Assignment" />
+        <layout:SimpleForm editable="{viewModel>/isEditable}">
+          <Label text="Company Code" />
+          <Input value="{eqModel>organization/account_assignment/company_code}" editable="{viewModel>/isEditable}" />
+
+          <Label text="Business Area" />
+          <Input value="{eqModel>organization/account_assignment/business_area}" editable="{viewModel>/isEditable}" />
+
+          <Label text="Asset" />
+          <Input value="{eqModel>organization/account_assignment/asset}" editable="{viewModel>/isEditable}" />
+          
+          <Input value="{eqModel>location/abc_indicator}" editable="{viewModel>/isEditable}" />
+
+          <Label text="Cost Center" />
+          <Input value="{eqModel>organization/account_assignment/cost_center}" editable="{viewModel>/isEditable}" />
+
+          <Label text="WBS Element" />
+          <Input value="{eqModel>organization/account_assignment/wbs_element}" editable="{viewModel>/isEditable}" />
+
+          <Label text="StandgOrder" />
+          <Input value="{eqModel>organization/account_assignment/standing_order}" editable="{viewModel>/isEditable}" />
+
+          <Label text="Settlement Order" />
+          <Input value="{eqModel>organization/account_assignment/settlement_order}" editable="{viewModel>/isEditable}" />
+        </layout:SimpleForm>
+      </VBox>
+
+      <VBox width="50%">
+        <Title class="htex"  text="Responsibilities" />
+        <layout:SimpleForm editable="{viewModel>/isEditable}">
+          <Label text="Planning Plant" />
+          <Input value="{eqModel>organization/responsibilities/planning_plant}" editable="{viewModel>/isEditable}" />
+
+          <Label text="Planner Group" />
+          <Input value="{eqModel>organization/responsibilities/planner_group}" editable="{viewModel>/isEditable}" />
+
+          <Label text="MainWorkCtr" />
+          <Input value="{eqModel>organization/responsibilities/main_work_center}" editable="{viewModel>/isEditable}" />
+
+          <Label text="Catalog Profile" />
+          <Input value="{eqModel>organization/responsibilities/catalog_profile}" editable="{viewModel>/isEditable}" />
+        </layout:SimpleForm>
+      </VBox>
+    </HBox>
+  </VBox>
+</IconTabFilter>
 
       </items>
     </IconTabBar>
 
-    <!-- Save Button -->
-    <HBox justifyContent="End" class="saveBar">
-      <Button text="Save" type="Emphasized" class="saveButton"/>
-    </HBox>
 
+
+
+
+
+
+    
+    <!-- Save Button -->
+    <HBox
+      justifyContent="End"
+      class="saveBar"
+      visible="false"
+      id="saveBar"
+    >
+      <Button
+        text="Save"
+        type="Emphasized"
+        class="saveButton"
+        press="onSave"
+      />
+    </HBox>
   </Page>
 </mvc:View>

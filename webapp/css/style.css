@@ -1,3 +1,8 @@
+
+.sapUiContentPadding {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
 .scrollContainerWithPadding {
   background: var(--sapGroup_ContentBackground, #fff);
   border: 1px solid var(--sapList_BorderColor, #ccc);
@@ -69,13 +74,13 @@
 
 /* Detail View  */
 .customHeader .topBar {
-  background-color: #004d40; /* Dark green */
+  background-color: #004d40;
   padding: 8px 16px;
   color: white;
 }
 
 .customHeader .titleBar {
-  background-color: #e0f2f1;
+  background-color: #f1f1f1;
   padding: 12px;
 }
 
@@ -90,14 +95,58 @@
 
 .saveBar {
   padding: 16px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 .saveButton {
-  background-color: #00796b;
+  background-color: #ffffff;
   color: white;
 }
 
 .whiteIconButton{
    color: white !important;
+}
+
+
+
+.htex{
+  color:#0d8975;
+}
+
+
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjj */
+
+
+.roundedLogo {
+  border-radius: 2px;
+  margin-left: 10px;
+}
+.HText{
+  color:white;
+  font-size: medium;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.btntog{
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+.customInput .sapMInputBaseInner,
+#customDatePicker .sapMInputBaseInner {
+  background-color: white !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+:root {
+  --sapBackgroundColor: #ffffff !important;
 }

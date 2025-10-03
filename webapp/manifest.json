@@ -33,6 +33,7 @@
     }
   },
   "sap.ui5": {
+    
     "flexEnabled": false,
     "dependencies": {
       "minUI5Version": "1.140.0",
@@ -68,6 +69,7 @@
     },
     "routing": {
       "config": {
+  
         "routerClass": "sap.m.routing.Router",
         "controlAggregation": "pages",
         "controlId": "app",
