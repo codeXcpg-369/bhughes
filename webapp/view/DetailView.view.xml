@@ -1,7 +1,6 @@
 <mvc:View
   controllerName="app.projbhughes.controller.DetailView"
   xmlns:mvc="sap.ui.core.mvc"
-  xmlns:l="sap.ui.layout"
   xmlns:layout="sap.ui.layout.form"
   xmlns:core="sap.ui.core"
   xmlns="sap.m"
@@ -10,7 +9,6 @@
     showHeader="false"
     class="detailPage"
   >
-    <!-- Custom Header -->
     <VBox class="customHeader">
       <HBox
         justifyContent="SpaceBetween"
@@ -131,21 +129,7 @@
       </layout:SimpleForm>
     </VBox>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    <!-- Tabs Section -->
+    <!-- Tabss -->
     <IconTabBar
       class="detailITB"
       expandable="false"
@@ -320,13 +304,6 @@
     </IconTabBar>
 
 
-
-
-
-
-
-    
-    <!-- Save Button -->
     <HBox
       justifyContent="End"
       class="saveBar"
