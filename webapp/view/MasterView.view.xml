@@ -3,21 +3,48 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
 >
-    <Page id="page">
-        <customHeader>
-            <Bar>
-                <contentLeft>
+    <Page
+        id="page"
+        showHeader="false"
+        class="detailPage"
+    >
+        <VBox class="customHeader">
+            <HBox
+                justifyContent="SpaceBetween"
+                class="topBar"
+            >
+                <HBox
+                    alignItems="Center"
+                    class="leftHeader"
+                >
                     <Image
-                        src="/images/logo.png"
-                        width="100px"
-                        height="20px"
+                        src="/images/mky-logo.png"
+                        height="40px"
+                        width="200px"
+                        class="roundedLogo"
                     />
-                </contentLeft>
-                <contentMiddle>
-                    <Title text="{i18n>title}" />
-                </contentMiddle>
-            </Bar>
-        </customHeader>
+                    <Text
+                        text="Material Manager"
+                        class="HText"
+                    />
+                </HBox>
+                <HBox
+                    alignItems="Center"
+                    class="rightHeader"
+                >
+                    <Button
+                        icon="sap-icon://search"
+                        type="Transparent"
+                        class="whiteIcon"
+                    />
+                    <Button
+                        icon="sap-icon://employee"
+                        type="Transparent"
+                        class="whiteIcon"
+                    />
+                </HBox>
+            </HBox>
+        </VBox>
         <ScrollContainer
             id="scrollContainer"
             horizontal="true"
@@ -39,19 +66,24 @@
                     <Column width="5rem">
                         <Text text="{i18n>MPno}" />
                     </Column>
-                    <Column width="10rem">
+                    <Column width="5rem">
                         <Text text="{i18n>EqNo}" />
                     </Column>
-                    <Column width="25rem">
-                        <Text text="{i18n>EqDesc}"  />
+                    <Column width="15rem">
+                        <Text text="{i18n>EqDesc}" />
                     </Column>
-                    <Column width="13rem">
+                    <Column width="7rem">
                         <Text text="{i18n>Mat}" />
                     </Column>
-                    <Column width="10rem">
+                    <Column width="7rem">
                         <Text text="{i18n>objtype}" />
                     </Column>
-   
+                    <Column width="5rem">
+                        <Text text="{i18n>auth_group}" />
+                    </Column>
+                    <Column width="5rem">
+                        <Text text="{i18n>manufacturer_serial_no}" />
+                    </Column>
                 </columns>
                 <items>
                     <ColumnListItem type="Active">
@@ -76,7 +108,14 @@
                                 text="{eqModel>general/object_type}"
                                 class="tableCell"
                             />
-                            
+                            <Text
+                                text="{eqModel>general/auth_group}"
+                                class="tableCell"
+                            />
+                            <Text
+                                text="{eqModel>general/manufacturer_serial_no}"
+                                class="tableCell"
+                            />
                         </cells>
                     </ColumnListItem>
                 </items>

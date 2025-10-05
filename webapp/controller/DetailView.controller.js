@@ -17,15 +17,39 @@ sap.ui.define([
 
     },
 
-    _onRouteMatched: function (oEvent) {
-      var sIndex = oEvent.getParameter("arguments").index;
-      var sPath = "/equipment/" + sIndex;
+    // _onRouteMatched: function (oEvent) {
+    //   var sIndex = oEvent.getParameter("arguments").index;
+    //   var sPath = "/equipment/" + sIndex;
 
-      this.getView().bindElement({
-        path: sPath,
-        model: "eqModel"
-      });
-    },
+    //   this.getView().bindElement({
+    //     path: sPath,
+    //     model: "eqModel"
+    //   });
+    // },
+    _onRouteMatched: function (oEvent) {
+  var sIndex = oEvent.getParameter("arguments").index;
+  var sPath = "/equipment/" + sIndex;
+
+  var oView = this.getView();
+  oView.bindElement({
+    path: sPath,
+    model: "eqModel"
+  });
+
+  // Add statusOptions to eqModel
+  var oEqModel = oView.getModel("eqModel");
+  if (oEqModel) {
+    oEqModel.setProperty("/statusOptions", [
+      { key: "Standby", text: "Standby" },
+      { key: "Retired", text: "Retired" },
+      { key: "Operational", text: "Operational" },
+      {key:"Decommissioned", text: "Decommissioned"}
+    ]);
+  }
+},
+
+
+
     
     onNavBack: function () {
   var oHistory = sap.ui.core.routing.History.getInstance();
@@ -48,7 +72,14 @@ onToggleMode: function () {
 
 
   var oButton = oView.byId("modeToggleBtn");
-  oButton.setText(bEditable ? "Display" : "Edit");
+  if (bEditable) {
+  oButton.setText("Display");
+  oButton.setIcon("sap-icon://display");
+  } else {
+  oButton.setText("Edit");
+  oButton.setIcon("sap-icon://edit");
+  }
+
 
 
   var oSaveBar = oView.byId("saveBar");

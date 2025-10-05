@@ -150,3 +150,6 @@
 :root {
   --sapBackgroundColor: #ffffff !important;
 }
+.whiteIcon .sapMBtnIcon {
+  color: white !important;
+}

@@ -1,1184 +1,2895 @@
 {
-    "equipment": [
-        {
-            "equipment_number": "10000117",
-            "equipment_description": "BHI - Capitalized equipment 'MDL-100' by Manufacturer 1 (Japan)",
-            "material": "H29991000",
-            "general": {
-                "object_type": "BHI - Capitalized",
-                "auth_group": "AG00",
-                "weight": "41.174 KG",
-                "size": "24x88x42 cm",
-                "inventory_no": "INV0000",
-                "manufacturer": "Manufacturer 1",
-                "manufacturer_country": "Japan",
-                "model_no": "MDL-100",
-                "construction_year": "2018",
-                "construction_month": "09",
-                "manufacturer_part_no": "MPN-500",
-                "manufacturer_serial_no": "MSN-1000",
-                "acquisition_date": "2025-02-12",
-                "material": "H29991044",
-                "delivery_date": "2025-07-12"
-            },
-            "location": {
-                "room": "Room-1",
-                "work_center": "WC-10",
-                "plant_section": "PS-20",
-                "location": "Location-30",
-                "address": "1 Main Street, City 1",
-                "sort_field": "SF-40",
-                "abc_indicator": "C",
-                "start_up_date": "2020-12-24",
-                "position": "POS-50",
-                "functional_location": "FL-60",
-                "maint_plant": "MP-70",
-                "asset_location": "AL-80",
-                "asset_number": "AN-90",
-                "asset_subnumber": "ASN-100"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Active",
-                "user_status": "Operational"
-            }
+  "equipment": [
+    {
+      "equipment_number": "10000117",
+      "equipment_description": "BHI - Capitalized equipment 'MDL-100' by Manufacturer 1 (Japan)",
+      "material": "H29991000",
+      "general": {
+        "object_type": "BHI - Capitalized",
+        "auth_group": "AG00",
+        "weight": "41.174 KG",
+        "size": "24x88x42 cm",
+        "inventory_no": "INV0000",
+        "manufacturer": "Manufacturer 1",
+        "manufacturer_country": "Japan",
+        "model_no": "MDL-100",
+        "construction_year": "2018",
+        "construction_month": "09",
+        "manufacturer_part_no": "MPN-500",
+        "manufacturer_serial_no": "MSN-1000",
+        "acquisition_date": "2025-02-12",
+        "material": "H29991044",
+        "delivery_date": "2025-07-12"
+      },
+      "location": {
+        "room": "Room-1",
+        "work_center": "WC-10",
+        "plant_section": "PS-20",
+        "location": "Location-30",
+        "address": "1 Main Street, City 1",
+        "sort_field": "SF-40",
+        "abc_indicator": "C",
+        "start_up_date": "2020-12-24",
+        "position": "POS-50",
+        "functional_location": "FL-60",
+        "maint_plant": "MP-70",
+        "asset_location": "AL-80",
+        "asset_number": "AN-90",
+        "asset_subnumber": "ASN-100"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
         },
-        {
-            "equipment_number": "10000118",
-            "equipment_description": "BHI - Leased equipment 'MDL-101' by Manufacturer 2 (Canada)",
-            "material": "H29991001",
-            "general": {
-                "object_type": "BHI - Leased",
-                "auth_group": "AG01",
-                "weight": "69.638 KG",
-                "size": "12x45x96 cm",
-                "inventory_no": "INV0001",
-                "manufacturer": "Manufacturer 2",
-                "manufacturer_country": "Canada",
-                "model_no": "MDL-101",
-                "construction_year": "2002",
-                "construction_month": "10",
-                "manufacturer_part_no": "MPN-501",
-                "manufacturer_serial_no": "MSN-1001",
-                "acquisition_date": "2025-01-24",
-                "material": "H29991044",
-                "delivery_date": "2025-09-06"
-            },
-            "location": {
-                "room": "Room-2",
-                "work_center": "WC-11",
-                "plant_section": "PS-21",
-                "location": "Location-31",
-                "address": "2 Main Street, City 2",
-                "sort_field": "SF-41",
-                "abc_indicator": "B",
-                "start_up_date": "2021-05-12",
-                "position": "POS-51",
-                "functional_location": "FL-61",
-                "maint_plant": "MP-71",
-                "asset_location": "AL-81",
-                "asset_number": "AN-91",
-                "asset_subnumber": "ASN-101"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Inactive",
-                "user_status": "Operational"
-            }
-        },
-        {
-            "equipment_number": "10000119",
-            "equipment_description": "BHI - Capitalized equipment 'MDL-102' by Manufacturer 3 (Japan)",
-            "material": "H29991002",
-            "general": {
-                "object_type": "BHI - Capitalized",
-                "auth_group": "AG02",
-                "weight": "38.216 KG",
-                "size": "14x52x14 cm",
-                "inventory_no": "INV0002",
-                "manufacturer": "Manufacturer 3",
-                "manufacturer_country": "Japan",
-                "model_no": "MDL-102",
-                "construction_year": "2006",
-                "construction_month": "06",
-                "manufacturer_part_no": "MPN-502",
-                "manufacturer_serial_no": "MSN-1002",
-                "acquisition_date": "2023-01-06",
-                "material": "H29991044",
-                "delivery_date": "2025-09-04"
-            },
-            "location": {
-                "room": "Room-3",
-                "work_center": "WC-12",
-                "plant_section": "PS-22",
-                "location": "Location-32",
-                "address": "3 Main Street, City 3",
-                "sort_field": "SF-42",
-                "abc_indicator": "A",
-                "start_up_date": "2021-02-23",
-                "position": "POS-52",
-                "functional_location": "FL-62",
-                "maint_plant": "MP-72",
-                "asset_location": "AL-82",
-                "asset_number": "AN-92",
-                "asset_subnumber": "ASN-102"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Inactive",
-                "user_status": "Operational"
-            }
-        },
-        {
-            "equipment_number": "10000120",
-            "equipment_description": "BHI - Capitalized equipment 'MDL-103' by Manufacturer 4 (India)",
-            "material": "H29991003",
-            "general": {
-                "object_type": "BHI - Capitalized",
-                "auth_group": "AG03",
-                "weight": "48.314 KG",
-                "size": "23x28x13 cm",
-                "inventory_no": "INV0003",
-                "manufacturer": "Manufacturer 4",
-                "manufacturer_country": "India",
-                "model_no": "MDL-103",
-                "construction_year": "2015",
-                "construction_month": "03",
-                "manufacturer_part_no": "MPN-503",
-                "manufacturer_serial_no": "MSN-1003",
-                "acquisition_date": "2025-01-21",
-                "material": "H29991044",
-                "delivery_date": "2025-08-27"
-            },
-            "location": {
-                "room": "Room-4",
-                "work_center": "WC-13",
-                "plant_section": "PS-23",
-                "location": "Location-33",
-                "address": "4 Main Street, City 4",
-                "sort_field": "SF-43",
-                "abc_indicator": "A",
-                "start_up_date": "2020-07-23",
-                "position": "POS-53",
-                "functional_location": "FL-63",
-                "maint_plant": "MP-73",
-                "asset_location": "AL-83",
-                "asset_number": "AN-93",
-                "asset_subnumber": "ASN-103"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Inactive",
-                "user_status": "Retired"
-            }
-        },
-        {
-            "equipment_number": "10000121",
-            "equipment_description": "BHI - Capitalized equipment 'MDL-104' by Manufacturer 5 (Canada)",
-            "material": "H29991004",
-            "general": {
-                "object_type": "BHI - Capitalized",
-                "auth_group": "AG04",
-                "weight": "48.407 KG",
-                "size": "28x65x70 cm",
-                "inventory_no": "INV0004",
-                "manufacturer": "Manufacturer 5",
-                "manufacturer_country": "Canada",
-                "model_no": "MDL-104",
-                "construction_year": "2009",
-                "construction_month": "09",
-                "manufacturer_part_no": "MPN-504",
-                "manufacturer_serial_no": "MSN-1004",
-                "acquisition_date": "2023-04-26",
-                "material": "H29991044",
-                "delivery_date": "2025-07-22"
-            },
-            "location": {
-                "room": "Room-5",
-                "work_center": "WC-14",
-                "plant_section": "PS-24",
-                "location": "Location-34",
-                "address": "5 Main Street, City 5",
-                "sort_field": "SF-44",
-                "abc_indicator": "A",
-                "start_up_date": "2020-04-25",
-                "position": "POS-54",
-                "functional_location": "FL-64",
-                "maint_plant": "MP-74",
-                "asset_location": "AL-84",
-                "asset_number": "AN-94",
-                "asset_subnumber": "ASN-104"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Active",
-                "user_status": "Operational"
-            }
-        },
-        {
-            "equipment_number": "10000122",
-            "equipment_description": "BHI - Spare equipment 'MDL-105' by Manufacturer 6 (India)",
-            "material": "H29991005",
-            "general": {
-                "object_type": "BHI - Spare",
-                "auth_group": "AG05",
-                "weight": "30.951 KG",
-                "size": "84x23x79 cm",
-                "inventory_no": "INV0005",
-                "manufacturer": "Manufacturer 6",
-                "manufacturer_country": "India",
-                "model_no": "MDL-105",
-                "construction_year": "2005",
-                "construction_month": "12",
-                "manufacturer_part_no": "MPN-505",
-                "manufacturer_serial_no": "MSN-1005",
-                "acquisition_date": "2023-01-19",
-                "material": "H29991044",
-                "delivery_date": "2025-09-15"
-            },
-            "location": {
-                "room": "Room-6",
-                "work_center": "WC-15",
-                "plant_section": "PS-25",
-                "location": "Location-35",
-                "address": "6 Main Street, City 6",
-                "sort_field": "SF-45",
-                "abc_indicator": "B",
-                "start_up_date": "2021-01-05",
-                "position": "POS-55",
-                "functional_location": "FL-65",
-                "maint_plant": "MP-75",
-                "asset_location": "AL-85",
-                "asset_number": "AN-95",
-                "asset_subnumber": "ASN-105"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Inactive",
-                "user_status": "Retired"
-            }
-        },
-        {
-            "equipment_number": "10000123",
-            "equipment_description": "BHI - Rental equipment 'MDL-106' by Manufacturer 7 (Germany)",
-            "material": "H29991006",
-            "general": {
-                "object_type": "BHI - Rental",
-                "auth_group": "AG06",
-                "weight": "21.694 KG",
-                "size": "95x40x82 cm",
-                "inventory_no": "INV0006",
-                "manufacturer": "Manufacturer 7",
-                "manufacturer_country": "Germany",
-                "model_no": "MDL-106",
-                "construction_year": "2013",
-                "construction_month": "06",
-                "manufacturer_part_no": "MPN-506",
-                "manufacturer_serial_no": "MSN-1006",
-                "acquisition_date": "2023-10-01",
-                "material": "H29991044",
-                "delivery_date": "2025-07-30"
-            },
-            "location": {
-                "room": "Room-7",
-                "work_center": "WC-16",
-                "plant_section": "PS-26",
-                "location": "Location-36",
-                "address": "7 Main Street, City 7",
-                "sort_field": "SF-46",
-                "abc_indicator": "C",
-                "start_up_date": "2020-08-07",
-                "position": "POS-56",
-                "functional_location": "FL-66",
-                "maint_plant": "MP-76",
-                "asset_location": "AL-86",
-                "asset_number": "AN-96",
-                "asset_subnumber": "ASN-106"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Inactive",
-                "user_status": "Operational"
-            }
-        },
-        {
-            "equipment_number": "10000124",
-            "equipment_description": "BHI - Demo equipment 'MDL-107' by Manufacturer 8 (USA)",
-            "material": "H29991007",
-            "general": {
-                "object_type": "BHI - Demo",
-                "auth_group": "AG07",
-                "weight": "49.114 KG",
-                "size": "56x27x75 cm",
-                "inventory_no": "INV0007",
-                "manufacturer": "Manufacturer 8",
-                "manufacturer_country": "USA",
-                "model_no": "MDL-107",
-                "construction_year": "2002",
-                "construction_month": "03",
-                "manufacturer_part_no": "MPN-507",
-                "manufacturer_serial_no": "MSN-1007",
-                "acquisition_date": "2023-06-20",
-                "material": "H29991044",
-                "delivery_date": "2025-08-02"
-            },
-            "location": {
-                "room": "Room-8",
-                "work_center": "WC-17",
-                "plant_section": "PS-27",
-                "location": "Location-37",
-                "address": "8 Main Street, City 8",
-                "sort_field": "SF-47",
-                "abc_indicator": "A",
-                "start_up_date": "2022-11-02",
-                "position": "POS-57",
-                "functional_location": "FL-67",
-                "maint_plant": "MP-77",
-                "asset_location": "AL-87",
-                "asset_number": "AN-97",
-                "asset_subnumber": "ASN-107"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Inactive",
-                "user_status": "Retired"
-            }
-        },
-        {
-            "equipment_number": "10000125",
-            "equipment_description": "BHI - Rental equipment 'MDL-108' by Manufacturer 9 (Germany)",
-            "material": "H29991008",
-            "general": {
-                "object_type": "BHI - Rental",
-                "auth_group": "AG08",
-                "weight": "95.284 KG",
-                "size": "55x46x64 cm",
-                "inventory_no": "INV0008",
-                "manufacturer": "Manufacturer 9",
-                "manufacturer_country": "Germany",
-                "model_no": "MDL-108",
-                "construction_year": "2023",
-                "construction_month": "06",
-                "manufacturer_part_no": "MPN-508",
-                "manufacturer_serial_no": "MSN-1008",
-                "acquisition_date": "2024-06-13",
-                "material": "H29991044",
-                "delivery_date": "2025-07-27"
-            },
-            "location": {
-                "room": "Room-9",
-                "work_center": "WC-18",
-                "plant_section": "PS-28",
-                "location": "Location-38",
-                "address": "9 Main Street, City 9",
-                "sort_field": "SF-48",
-                "abc_indicator": "A",
-                "start_up_date": "2020-10-05",
-                "position": "POS-58",
-                "functional_location": "FL-68",
-                "maint_plant": "MP-78",
-                "asset_location": "AL-88",
-                "asset_number": "AN-98",
-                "asset_subnumber": "ASN-108"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Active",
-                "user_status": "Standby"
-            }
-        },
-        {
-            "equipment_number": "10000126",
-            "equipment_description": "BHI - Demo equipment 'MDL-109' by Manufacturer 10 (Canada)",
-            "material": "H29991009",
-            "general": {
-                "object_type": "BHI - Demo",
-                "auth_group": "AG09",
-                "weight": "67.947 KG",
-                "size": "67x45x17 cm",
-                "inventory_no": "INV0009",
-                "manufacturer": "Manufacturer 10",
-                "manufacturer_country": "Canada",
-                "model_no": "MDL-109",
-                "construction_year": "2017",
-                "construction_month": "03",
-                "manufacturer_part_no": "MPN-509",
-                "manufacturer_serial_no": "MSN-1009",
-                "acquisition_date": "2023-12-05",
-                "material": "H29991044",
-                "delivery_date": "2025-08-12"
-            },
-            "location": {
-                "room": "Room-10",
-                "work_center": "WC-19",
-                "plant_section": "PS-29",
-                "location": "Location-39",
-                "address": "10 Main Street, City 10",
-                "sort_field": "SF-49",
-                "abc_indicator": "A",
-                "start_up_date": "2021-07-02",
-                "position": "POS-59",
-                "functional_location": "FL-69",
-                "maint_plant": "MP-79",
-                "asset_location": "AL-89",
-                "asset_number": "AN-99",
-                "asset_subnumber": "ASN-109"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Under Maintenance",
-                "user_status": "Retired"
-            }
-        },
-        {
-            "equipment_number": "10000127",
-            "equipment_description": "BHI - Capitalized equipment 'MDL-110' by Manufacturer 11 (Germany)",
-            "material": "H29991010",
-            "general": {
-                "object_type": "BHI - Capitalized",
-                "auth_group": "AG10",
-                "weight": "76.052 KG",
-                "size": "14x44x74 cm",
-                "inventory_no": "INV0010",
-                "manufacturer": "Manufacturer 11",
-                "manufacturer_country": "Germany",
-                "model_no": "MDL-110",
-                "construction_year": "2002",
-                "construction_month": "01",
-                "manufacturer_part_no": "MPN-510",
-                "manufacturer_serial_no": "MSN-1010",
-                "acquisition_date": "2024-12-23",
-                "material": "H29991044",
-                "delivery_date": "2025-08-03"
-            },
-            "location": {
-                "room": "Room-11",
-                "work_center": "WC-20",
-                "plant_section": "PS-30",
-                "location": "Location-40",
-                "address": "11 Main Street, City 11",
-                "sort_field": "SF-50",
-                "abc_indicator": "A",
-                "start_up_date": "2020-08-06",
-                "position": "POS-60",
-                "functional_location": "FL-70",
-                "maint_plant": "MP-80",
-                "asset_location": "AL-90",
-                "asset_number": "AN-100",
-                "asset_subnumber": "ASN-110"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Active",
-                "user_status": "Standby"
-            }
-        },
-        {
-            "equipment_number": "10000128",
-            "equipment_description": "BHI - Temporary equipment 'MDL-111' by Manufacturer 12 (Germany)",
-            "material": "H29991011",
-            "general": {
-                "object_type": "BHI - Temporary",
-                "auth_group": "AG11",
-                "weight": "40.033 KG",
-                "size": "89x32x47 cm",
-                "inventory_no": "INV0011",
-                "manufacturer": "Manufacturer 12",
-                "manufacturer_country": "Germany",
-                "model_no": "MDL-111",
-                "construction_year": "2011",
-                "construction_month": "05",
-                "manufacturer_part_no": "MPN-511",
-                "manufacturer_serial_no": "MSN-1011",
-                "acquisition_date": "2024-01-28",
-                "material": "H29991044",
-                "delivery_date": "2025-09-15"
-            },
-            "location": {
-                "room": "Room-12",
-                "work_center": "WC-21",
-                "plant_section": "PS-31",
-                "location": "Location-41",
-                "address": "12 Main Street, City 12",
-                "sort_field": "SF-51",
-                "abc_indicator": "A",
-                "start_up_date": "2021-01-27",
-                "position": "POS-61",
-                "functional_location": "FL-71",
-                "maint_plant": "MP-81",
-                "asset_location": "AL-91",
-                "asset_number": "AN-101",
-                "asset_subnumber": "ASN-111"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Inactive",
-                "user_status": "Retired"
-            }
-        },
-        {
-            "equipment_number": "10000129",
-            "equipment_description": "BHI - Temporary equipment 'MDL-112' by Manufacturer 13 (Canada)",
-            "material": "H29991012",
-            "general": {
-                "object_type": "BHI - Temporary",
-                "auth_group": "AG12",
-                "weight": "23.973 KG",
-                "size": "26x79x62 cm",
-                "inventory_no": "INV0012",
-                "manufacturer": "Manufacturer 13",
-                "manufacturer_country": "Canada",
-                "model_no": "MDL-112",
-                "construction_year": "2010",
-                "construction_month": "07",
-                "manufacturer_part_no": "MPN-512",
-                "manufacturer_serial_no": "MSN-1012",
-                "acquisition_date": "2024-11-03",
-                "material": "H29991044",
-                "delivery_date": "2025-08-23"
-            },
-            "location": {
-                "room": "Room-13",
-                "work_center": "WC-22",
-                "plant_section": "PS-32",
-                "location": "Location-42",
-                "address": "13 Main Street, City 13",
-                "sort_field": "SF-52",
-                "abc_indicator": "A",
-                "start_up_date": "2021-12-18",
-                "position": "POS-62",
-                "functional_location": "FL-72",
-                "maint_plant": "MP-82",
-                "asset_location": "AL-92",
-                "asset_number": "AN-102",
-                "asset_subnumber": "ASN-112"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Under Maintenance",
-                "user_status": "Standby"
-            }
-        },
-        {
-            "equipment_number": "10000130",
-            "equipment_description": "BHI - spare equipment 'MDL-113' by Manufacturer 14 (USA)",
-            "material": "H29991013",
-            "general": {
-                "object_type": "BHI - spare",
-                "auth_group": "AG13",
-                "weight": "76.391 KG",
-                "size": "46x82x70 cm",
-                "inventory_no": "INV0013",
-                "manufacturer": "Manufacturer 14",
-                "manufacturer_country": "USA",
-                "model_no": "MDL-113",
-                "construction_year": "2011",
-                "construction_month": "06",
-                "manufacturer_part_no": "MPN-513",
-                "manufacturer_serial_no": "MSN-1013",
-                "acquisition_date": "2024-02-28",
-                "material": "H29991044",
-                "delivery_date": "2025-06-26"
-            },
-            "location": {
-                "room": "Room-14",
-                "work_center": "WC-23",
-                "plant_section": "PS-33",
-                "location": "Location-43",
-                "address": "14 Main Street, City 14",
-                "sort_field": "SF-53",
-                "abc_indicator": "C",
-                "start_up_date": "2022-05-29",
-                "position": "POS-63",
-                "functional_location": "FL-73",
-                "maint_plant": "MP-83",
-                "asset_location": "AL-93",
-                "asset_number": "AN-103",
-                "asset_subnumber": "ASN-113"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Under Maintenance",
-                "user_status": "Retired"
-            }
-        },
-        {
-            "equipment_number": "10000131",
-            "equipment_description": "BHI - Demo equipment 'MDL-114' by Manufacturer 15 (USA)",
-            "material": "H29991014",
-            "general": {
-                "object_type": "BHI - Demo",
-                "auth_group": "AG14",
-                "weight": "61.307 KG",
-                "size": "28x95x47 cm",
-                "inventory_no": "INV0014",
-                "manufacturer": "Manufacturer 15",
-                "manufacturer_country": "USA",
-                "model_no": "MDL-114",
-                "construction_year": "2022",
-                "construction_month": "04",
-                "manufacturer_part_no": "MPN-514",
-                "manufacturer_serial_no": "MSN-1014",
-                "acquisition_date": "2024-06-13",
-                "material": "H29991044",
-                "delivery_date": "2025-07-15"
-            },
-            "location": {
-                "room": "Room-15",
-                "work_center": "WC-24",
-                "plant_section": "PS-34",
-                "location": "Location-44",
-                "address": "15 Main Street, City 15",
-                "sort_field": "SF-54",
-                "abc_indicator": "A",
-                "start_up_date": "2021-06-23",
-                "position": "POS-64",
-                "functional_location": "FL-74",
-                "maint_plant": "MP-84",
-                "asset_location": "AL-94",
-                "asset_number": "AN-104",
-                "asset_subnumber": "ASN-114"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Active",
-                "user_status": "Standby"
-            }
-        },
-        {
-            "equipment_number": "10000132",
-            "equipment_description": "BHI - Capitalized equipment 'MDL-115' by Manufacturer 16 (India)",
-            "material": "H29991015",
-            "general": {
-                "object_type": "BHI - Capitalized",
-                "auth_group": "AG15",
-                "weight": "37.374 KG",
-                "size": "64x68x96 cm",
-                "inventory_no": "INV0015",
-                "manufacturer": "Manufacturer 16",
-                "manufacturer_country": "India",
-                "model_no": "MDL-115",
-                "construction_year": "2020",
-                "construction_month": "05",
-                "manufacturer_part_no": "MPN-515",
-                "manufacturer_serial_no": "MSN-1015",
-                "acquisition_date": "2024-12-09",
-                "material": "H29991044",
-                "delivery_date": "2025-09-11"
-            },
-            "location": {
-                "room": "Room-16",
-                "work_center": "WC-25",
-                "plant_section": "PS-35",
-                "location": "Location-45",
-                "address": "16 Main Street, City 16",
-                "sort_field": "SF-55",
-                "abc_indicator": "C",
-                "start_up_date": "2021-03-21",
-                "position": "POS-65",
-                "functional_location": "FL-75",
-                "maint_plant": "MP-85",
-                "asset_location": "AL-95",
-                "asset_number": "AN-105",
-                "asset_subnumber": "ASN-115"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Under Maintenance",
-                "user_status": "Operational"
-            }
-        },
-        {
-            "equipment_number": "10000133",
-            "equipment_description": "BHI - Spare equipment 'MDL-116' by Manufacturer 17 (Germany)",
-            "material": "H29991016",
-            "general": {
-                "object_type": "BHI - Spare",
-                "auth_group": "AG16",
-                "weight": "96.811 KG",
-                "size": "21x56x43 cm",
-                "inventory_no": "INV0016",
-                "manufacturer": "Manufacturer 17",
-                "manufacturer_country": "Germany",
-                "model_no": "MDL-116",
-                "construction_year": "2019",
-                "construction_month": "08",
-                "manufacturer_part_no": "MPN-516",
-                "manufacturer_serial_no": "MSN-1016",
-                "acquisition_date": "2025-02-25",
-                "material": "H29991044",
-                "delivery_date": "2025-09-13"
-            },
-            "location": {
-                "room": "Room-17",
-                "work_center": "WC-26",
-                "plant_section": "PS-36",
-                "location": "Location-46",
-                "address": "17 Main Street, City 17",
-                "sort_field": "SF-56",
-                "abc_indicator": "C",
-                "start_up_date": "2021-03-16",
-                "position": "POS-66",
-                "functional_location": "FL-76",
-                "maint_plant": "MP-86",
-                "asset_location": "AL-96",
-                "asset_number": "AN-106",
-                "asset_subnumber": "ASN-116"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Active",
-                "user_status": "Standby"
-            }
-        },
-        {
-            "equipment_number": "10000134",
-            "equipment_description": "BHI - Capitalized equipment 'MDL-117' by Manufacturer 18 (India)",
-            "material": "H29991017",
-            "general": {
-                "object_type": "BHI - Capitalized",
-                "auth_group": "AG17",
-                "weight": "91.700 KG",
-                "size": "58x71x78 cm",
-                "inventory_no": "INV0017",
-                "manufacturer": "Manufacturer 18",
-                "manufacturer_country": "India",
-                "model_no": "MDL-117",
-                "construction_year": "2001",
-                "construction_month": "04",
-                "manufacturer_part_no": "MPN-517",
-                "manufacturer_serial_no": "MSN-1017",
-                "acquisition_date": "2024-04-21",
-                "material": "H29991044",
-                "delivery_date": "2025-09-05"
-            },
-            "location": {
-                "room": "Room-18",
-                "work_center": "WC-27",
-                "plant_section": "PS-37",
-                "location": "Location-47",
-                "address": "18 Main Street, City 18",
-                "sort_field": "SF-57",
-                "abc_indicator": "C",
-                "start_up_date": "2022-08-18",
-                "position": "POS-67",
-                "functional_location": "FL-77",
-                "maint_plant": "MP-87",
-                "asset_location": "AL-97",
-                "asset_number": "AN-107",
-                "asset_subnumber": "ASN-117"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Inactive",
-                "user_status": "Standby"
-            }
-        },
-        {
-            "equipment_number": "10000135",
-            "equipment_description": "BHI - Spare equipment 'MDL-118' by Manufacturer 19 (Japan)",
-            "material": "H29991018",
-            "general": {
-                "object_type": "BHI - Spare",
-                "auth_group": "AG18",
-                "weight": "71.246 KG",
-                "size": "48x60x54 cm",
-                "inventory_no": "INV0018",
-                "manufacturer": "Manufacturer 19",
-                "manufacturer_country": "Japan",
-                "model_no": "MDL-118",
-                "construction_year": "2018",
-                "construction_month": "09",
-                "manufacturer_part_no": "MPN-518",
-                "manufacturer_serial_no": "MSN-1018",
-                "acquisition_date": "2023-03-11",
-                "material": "H29991044",
-                "delivery_date": "2025-07-09"
-            },
-            "location": {
-                "room": "Room-19",
-                "work_center": "WC-28",
-                "plant_section": "PS-38",
-                "location": "Location-48",
-                "address": "19 Main Street, City 19",
-                "sort_field": "SF-58",
-                "abc_indicator": "C",
-                "start_up_date": "2020-09-04",
-                "position": "POS-68",
-                "functional_location": "FL-78",
-                "maint_plant": "MP-88",
-                "asset_location": "AL-98",
-                "asset_number": "AN-108",
-                "asset_subnumber": "ASN-118"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Under Maintenance",
-                "user_status": "Operational"
-            }
-        },
-        {
-            "equipment_number": "10000136",
-            "equipment_description": "BHI - Demo equipment 'MDL-119' by Manufacturer 20 (Canada)",
-            "material": "H29991019",
-            "general": {
-                "object_type": "BHI - Demo",
-                "auth_group": "AG19",
-                "weight": "46.298 KG",
-                "size": "54x27x93 cm",
-                "inventory_no": "INV0019",
-                "manufacturer": "Manufacturer 20",
-                "manufacturer_country": "Canada",
-                "model_no": "MDL-119",
-                "construction_year": "2005",
-                "construction_month": "02",
-                "manufacturer_part_no": "MPN-519",
-                "manufacturer_serial_no": "MSN-1019",
-                "acquisition_date": "2023-12-29",
-                "material": "H29991044",
-                "delivery_date": "2025-08-06"
-            },
-            "location": {
-                "room": "Room-20",
-                "work_center": "WC-29",
-                "plant_section": "PS-39",
-                "location": "Location-49",
-                "address": "20 Main Street, City 20",
-                "sort_field": "SF-59",
-                "abc_indicator": "B",
-                "start_up_date": "2021-02-06",
-                "position": "POS-69",
-                "functional_location": "FL-79",
-                "maint_plant": "MP-89",
-                "asset_location": "AL-99",
-                "asset_number": "AN-109",
-                "asset_subnumber": "ASN-119"
-            },
-            "organization": {
-                "account_assignment": {
-                    "company_code": "1000",
-                    "business_area": "BA01",
-                    "asset": "A12345",
-                    "cost_center": "CC100",
-                    "wbs_element": "00000000",
-                    "standing_order": "SO123",
-                    "settlement_order": "SET456"
-                },
-                "responsibilities": {
-                    "planning_plant": "PP01",
-                    "planner_group": "PG01",
-                    "main_work_center": "MWC01",
-                    "catalog_profile": "CP01"
-                }
-            },
-            "status": {
-                "system_status": "Active",
-                "user_status": "Operational"
-            }
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
         }
-    ]
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000118",
+      "equipment_description": "BHI - Leased equipment 'MDL-101' by Manufacturer 2 (Canada)",
+      "material": "H29991001",
+      "general": {
+        "object_type": "BHI - Leased",
+        "auth_group": "AG01",
+        "weight": "69.638 KG",
+        "size": "12x45x96 cm",
+        "inventory_no": "INV0001",
+        "manufacturer": "Manufacturer 2",
+        "manufacturer_country": "Canada",
+        "model_no": "MDL-101",
+        "construction_year": "2002",
+        "construction_month": "10",
+        "manufacturer_part_no": "MPN-501",
+        "manufacturer_serial_no": "MSN-1001",
+        "acquisition_date": "2025-01-24",
+        "material": "H29991044",
+        "delivery_date": "2025-09-06"
+      },
+      "location": {
+        "room": "Room-2",
+        "work_center": "WC-11",
+        "plant_section": "PS-21",
+        "location": "Location-31",
+        "address": "2 Main Street, City 2",
+        "sort_field": "SF-41",
+        "abc_indicator": "B",
+        "start_up_date": "2021-05-12",
+        "position": "POS-51",
+        "functional_location": "FL-61",
+        "maint_plant": "MP-71",
+        "asset_location": "AL-81",
+        "asset_number": "AN-91",
+        "asset_subnumber": "ASN-101"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000119",
+      "equipment_description": "BHI - Capitalized equipment 'MDL-102' by Manufacturer 3 (Japan)",
+      "material": "H29991002",
+      "general": {
+        "object_type": "BHI - Capitalized",
+        "auth_group": "AG02",
+        "weight": "38.216 KG",
+        "size": "14x52x14 cm",
+        "inventory_no": "INV0002",
+        "manufacturer": "Manufacturer 3",
+        "manufacturer_country": "Japan",
+        "model_no": "MDL-102",
+        "construction_year": "2006",
+        "construction_month": "06",
+        "manufacturer_part_no": "MPN-502",
+        "manufacturer_serial_no": "MSN-1002",
+        "acquisition_date": "2023-01-06",
+        "material": "H29991044",
+        "delivery_date": "2025-09-04"
+      },
+      "location": {
+        "room": "Room-3",
+        "work_center": "WC-12",
+        "plant_section": "PS-22",
+        "location": "Location-32",
+        "address": "3 Main Street, City 3",
+        "sort_field": "SF-42",
+        "abc_indicator": "A",
+        "start_up_date": "2021-02-23",
+        "position": "POS-52",
+        "functional_location": "FL-62",
+        "maint_plant": "MP-72",
+        "asset_location": "AL-82",
+        "asset_number": "AN-92",
+        "asset_subnumber": "ASN-102"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000120",
+      "equipment_description": "BHI - Capitalized equipment 'MDL-103' by Manufacturer 4 (India)",
+      "material": "H29991003",
+      "general": {
+        "object_type": "BHI - Capitalized",
+        "auth_group": "AG03",
+        "weight": "48.314 KG",
+        "size": "23x28x13 cm",
+        "inventory_no": "INV0003",
+        "manufacturer": "Manufacturer 4",
+        "manufacturer_country": "India",
+        "model_no": "MDL-103",
+        "construction_year": "2015",
+        "construction_month": "03",
+        "manufacturer_part_no": "MPN-503",
+        "manufacturer_serial_no": "MSN-1003",
+        "acquisition_date": "2025-01-21",
+        "material": "H29991044",
+        "delivery_date": "2025-08-27"
+      },
+      "location": {
+        "room": "Room-4",
+        "work_center": "WC-13",
+        "plant_section": "PS-23",
+        "location": "Location-33",
+        "address": "4 Main Street, City 4",
+        "sort_field": "SF-43",
+        "abc_indicator": "A",
+        "start_up_date": "2020-07-23",
+        "position": "POS-53",
+        "functional_location": "FL-63",
+        "maint_plant": "MP-73",
+        "asset_location": "AL-83",
+        "asset_number": "AN-93",
+        "asset_subnumber": "ASN-103"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Retired"
+      }
+    },
+    {
+      "equipment_number": "10000121",
+      "equipment_description": "BHI - Capitalized equipment 'MDL-104' by Manufacturer 5 (Canada)",
+      "material": "H29991004",
+      "general": {
+        "object_type": "BHI - Capitalized",
+        "auth_group": "AG04",
+        "weight": "48.407 KG",
+        "size": "28x65x70 cm",
+        "inventory_no": "INV0004",
+        "manufacturer": "Manufacturer 5",
+        "manufacturer_country": "Canada",
+        "model_no": "MDL-104",
+        "construction_year": "2009",
+        "construction_month": "09",
+        "manufacturer_part_no": "MPN-504",
+        "manufacturer_serial_no": "MSN-1004",
+        "acquisition_date": "2023-04-26",
+        "material": "H29991044",
+        "delivery_date": "2025-07-22"
+      },
+      "location": {
+        "room": "Room-5",
+        "work_center": "WC-14",
+        "plant_section": "PS-24",
+        "location": "Location-34",
+        "address": "5 Main Street, City 5",
+        "sort_field": "SF-44",
+        "abc_indicator": "A",
+        "start_up_date": "2020-04-25",
+        "position": "POS-54",
+        "functional_location": "FL-64",
+        "maint_plant": "MP-74",
+        "asset_location": "AL-84",
+        "asset_number": "AN-94",
+        "asset_subnumber": "ASN-104"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000122",
+      "equipment_description": "BHI - Spare equipment 'MDL-105' by Manufacturer 6 (India)",
+      "material": "H29991005",
+      "general": {
+        "object_type": "BHI - Spare",
+        "auth_group": "AG05",
+        "weight": "30.951 KG",
+        "size": "84x23x79 cm",
+        "inventory_no": "INV0005",
+        "manufacturer": "Manufacturer 6",
+        "manufacturer_country": "India",
+        "model_no": "MDL-105",
+        "construction_year": "2005",
+        "construction_month": "12",
+        "manufacturer_part_no": "MPN-505",
+        "manufacturer_serial_no": "MSN-1005",
+        "acquisition_date": "2023-01-19",
+        "material": "H29991044",
+        "delivery_date": "2025-09-15"
+      },
+      "location": {
+        "room": "Room-6",
+        "work_center": "WC-15",
+        "plant_section": "PS-25",
+        "location": "Location-35",
+        "address": "6 Main Street, City 6",
+        "sort_field": "SF-45",
+        "abc_indicator": "B",
+        "start_up_date": "2021-01-05",
+        "position": "POS-55",
+        "functional_location": "FL-65",
+        "maint_plant": "MP-75",
+        "asset_location": "AL-85",
+        "asset_number": "AN-95",
+        "asset_subnumber": "ASN-105"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Retired"
+      }
+    },
+    {
+      "equipment_number": "10000123",
+      "equipment_description": "BHI - Rental equipment 'MDL-106' by Manufacturer 7 (Germany)",
+      "material": "H29991006",
+      "general": {
+        "object_type": "BHI - Rental",
+        "auth_group": "AG06",
+        "weight": "21.694 KG",
+        "size": "95x40x82 cm",
+        "inventory_no": "INV0006",
+        "manufacturer": "Manufacturer 7",
+        "manufacturer_country": "Germany",
+        "model_no": "MDL-106",
+        "construction_year": "2013",
+        "construction_month": "06",
+        "manufacturer_part_no": "MPN-506",
+        "manufacturer_serial_no": "MSN-1006",
+        "acquisition_date": "2023-10-01",
+        "material": "H29991044",
+        "delivery_date": "2025-07-30"
+      },
+      "location": {
+        "room": "Room-7",
+        "work_center": "WC-16",
+        "plant_section": "PS-26",
+        "location": "Location-36",
+        "address": "7 Main Street, City 7",
+        "sort_field": "SF-46",
+        "abc_indicator": "C",
+        "start_up_date": "2020-08-07",
+        "position": "POS-56",
+        "functional_location": "FL-66",
+        "maint_plant": "MP-76",
+        "asset_location": "AL-86",
+        "asset_number": "AN-96",
+        "asset_subnumber": "ASN-106"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000124",
+      "equipment_description": "BHI - Demo equipment 'MDL-107' by Manufacturer 8 (USA)",
+      "material": "H29991007",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG07",
+        "weight": "49.114 KG",
+        "size": "56x27x75 cm",
+        "inventory_no": "INV0007",
+        "manufacturer": "Manufacturer 8",
+        "manufacturer_country": "USA",
+        "model_no": "MDL-107",
+        "construction_year": "2002",
+        "construction_month": "03",
+        "manufacturer_part_no": "MPN-507",
+        "manufacturer_serial_no": "MSN-1007",
+        "acquisition_date": "2023-06-20",
+        "material": "H29991044",
+        "delivery_date": "2025-08-02"
+      },
+      "location": {
+        "room": "Room-8",
+        "work_center": "WC-17",
+        "plant_section": "PS-27",
+        "location": "Location-37",
+        "address": "8 Main Street, City 8",
+        "sort_field": "SF-47",
+        "abc_indicator": "A",
+        "start_up_date": "2022-11-02",
+        "position": "POS-57",
+        "functional_location": "FL-67",
+        "maint_plant": "MP-77",
+        "asset_location": "AL-87",
+        "asset_number": "AN-97",
+        "asset_subnumber": "ASN-107"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Retired"
+      }
+    },
+    {
+      "equipment_number": "10000125",
+      "equipment_description": "BHI - Rental equipment 'MDL-108' by Manufacturer 9 (Germany)",
+      "material": "H29991008",
+      "general": {
+        "object_type": "BHI - Rental",
+        "auth_group": "AG08",
+        "weight": "95.284 KG",
+        "size": "55x46x64 cm",
+        "inventory_no": "INV0008",
+        "manufacturer": "Manufacturer 9",
+        "manufacturer_country": "Germany",
+        "model_no": "MDL-108",
+        "construction_year": "2023",
+        "construction_month": "06",
+        "manufacturer_part_no": "MPN-508",
+        "manufacturer_serial_no": "MSN-1008",
+        "acquisition_date": "2024-06-13",
+        "material": "H29991044",
+        "delivery_date": "2025-07-27"
+      },
+      "location": {
+        "room": "Room-9",
+        "work_center": "WC-18",
+        "plant_section": "PS-28",
+        "location": "Location-38",
+        "address": "9 Main Street, City 9",
+        "sort_field": "SF-48",
+        "abc_indicator": "A",
+        "start_up_date": "2020-10-05",
+        "position": "POS-58",
+        "functional_location": "FL-68",
+        "maint_plant": "MP-78",
+        "asset_location": "AL-88",
+        "asset_number": "AN-98",
+        "asset_subnumber": "ASN-108"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000126",
+      "equipment_description": "BHI - Demo equipment 'MDL-109' by Manufacturer 10 (Canada)",
+      "material": "H29991009",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG09",
+        "weight": "67.947 KG",
+        "size": "67x45x17 cm",
+        "inventory_no": "INV0009",
+        "manufacturer": "Manufacturer 10",
+        "manufacturer_country": "Canada",
+        "model_no": "MDL-109",
+        "construction_year": "2017",
+        "construction_month": "03",
+        "manufacturer_part_no": "MPN-509",
+        "manufacturer_serial_no": "MSN-1009",
+        "acquisition_date": "2023-12-05",
+        "material": "H29991044",
+        "delivery_date": "2025-08-12"
+      },
+      "location": {
+        "room": "Room-10",
+        "work_center": "WC-19",
+        "plant_section": "PS-29",
+        "location": "Location-39",
+        "address": "10 Main Street, City 10",
+        "sort_field": "SF-49",
+        "abc_indicator": "A",
+        "start_up_date": "2021-07-02",
+        "position": "POS-59",
+        "functional_location": "FL-69",
+        "maint_plant": "MP-79",
+        "asset_location": "AL-89",
+        "asset_number": "AN-99",
+        "asset_subnumber": "ASN-109"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Under Maintenance",
+        "user_status": "Retired"
+      }
+    },
+    {
+      "equipment_number": "10000127",
+      "equipment_description": "BHI - Capitalized equipment 'MDL-110' by Manufacturer 11 (Germany)",
+      "material": "H29991010",
+      "general": {
+        "object_type": "BHI - Capitalized",
+        "auth_group": "AG10",
+        "weight": "76.052 KG",
+        "size": "14x44x74 cm",
+        "inventory_no": "INV0010",
+        "manufacturer": "Manufacturer 11",
+        "manufacturer_country": "Germany",
+        "model_no": "MDL-110",
+        "construction_year": "2002",
+        "construction_month": "01",
+        "manufacturer_part_no": "MPN-510",
+        "manufacturer_serial_no": "MSN-1010",
+        "acquisition_date": "2024-12-23",
+        "material": "H29991044",
+        "delivery_date": "2025-08-03"
+      },
+      "location": {
+        "room": "Room-11",
+        "work_center": "WC-20",
+        "plant_section": "PS-30",
+        "location": "Location-40",
+        "address": "11 Main Street, City 11",
+        "sort_field": "SF-50",
+        "abc_indicator": "A",
+        "start_up_date": "2020-08-06",
+        "position": "POS-60",
+        "functional_location": "FL-70",
+        "maint_plant": "MP-80",
+        "asset_location": "AL-90",
+        "asset_number": "AN-100",
+        "asset_subnumber": "ASN-110"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000128",
+      "equipment_description": "BHI - Temporary equipment 'MDL-111' by Manufacturer 12 (Germany)",
+      "material": "H29991011",
+      "general": {
+        "object_type": "BHI - Temporary",
+        "auth_group": "AG11",
+        "weight": "40.033 KG",
+        "size": "89x32x47 cm",
+        "inventory_no": "INV0011",
+        "manufacturer": "Manufacturer 12",
+        "manufacturer_country": "Germany",
+        "model_no": "MDL-111",
+        "construction_year": "2011",
+        "construction_month": "05",
+        "manufacturer_part_no": "MPN-511",
+        "manufacturer_serial_no": "MSN-1011",
+        "acquisition_date": "2024-01-28",
+        "material": "H29991044",
+        "delivery_date": "2025-09-15"
+      },
+      "location": {
+        "room": "Room-12",
+        "work_center": "WC-21",
+        "plant_section": "PS-31",
+        "location": "Location-41",
+        "address": "12 Main Street, City 12",
+        "sort_field": "SF-51",
+        "abc_indicator": "A",
+        "start_up_date": "2021-01-27",
+        "position": "POS-61",
+        "functional_location": "FL-71",
+        "maint_plant": "MP-81",
+        "asset_location": "AL-91",
+        "asset_number": "AN-101",
+        "asset_subnumber": "ASN-111"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Retired"
+      }
+    },
+    {
+      "equipment_number": "10000129",
+      "equipment_description": "BHI - Temporary equipment 'MDL-112' by Manufacturer 13 (Canada)",
+      "material": "H29991012",
+      "general": {
+        "object_type": "BHI - Temporary",
+        "auth_group": "AG12",
+        "weight": "23.973 KG",
+        "size": "26x79x62 cm",
+        "inventory_no": "INV0012",
+        "manufacturer": "Manufacturer 13",
+        "manufacturer_country": "Canada",
+        "model_no": "MDL-112",
+        "construction_year": "2010",
+        "construction_month": "07",
+        "manufacturer_part_no": "MPN-512",
+        "manufacturer_serial_no": "MSN-1012",
+        "acquisition_date": "2024-11-03",
+        "material": "H29991044",
+        "delivery_date": "2025-08-23"
+      },
+      "location": {
+        "room": "Room-13",
+        "work_center": "WC-22",
+        "plant_section": "PS-32",
+        "location": "Location-42",
+        "address": "13 Main Street, City 13",
+        "sort_field": "SF-52",
+        "abc_indicator": "A",
+        "start_up_date": "2021-12-18",
+        "position": "POS-62",
+        "functional_location": "FL-72",
+        "maint_plant": "MP-82",
+        "asset_location": "AL-92",
+        "asset_number": "AN-102",
+        "asset_subnumber": "ASN-112"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Under Maintenance",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000130",
+      "equipment_description": "BHI - spare equipment 'MDL-113' by Manufacturer 14 (USA)",
+      "material": "H29991013",
+      "general": {
+        "object_type": "BHI - spare",
+        "auth_group": "AG13",
+        "weight": "76.391 KG",
+        "size": "46x82x70 cm",
+        "inventory_no": "INV0013",
+        "manufacturer": "Manufacturer 14",
+        "manufacturer_country": "USA",
+        "model_no": "MDL-113",
+        "construction_year": "2011",
+        "construction_month": "06",
+        "manufacturer_part_no": "MPN-513",
+        "manufacturer_serial_no": "MSN-1013",
+        "acquisition_date": "2024-02-28",
+        "material": "H29991044",
+        "delivery_date": "2025-06-26"
+      },
+      "location": {
+        "room": "Room-14",
+        "work_center": "WC-23",
+        "plant_section": "PS-33",
+        "location": "Location-43",
+        "address": "14 Main Street, City 14",
+        "sort_field": "SF-53",
+        "abc_indicator": "C",
+        "start_up_date": "2022-05-29",
+        "position": "POS-63",
+        "functional_location": "FL-73",
+        "maint_plant": "MP-83",
+        "asset_location": "AL-93",
+        "asset_number": "AN-103",
+        "asset_subnumber": "ASN-113"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Under Maintenance",
+        "user_status": "Retired"
+      }
+    },
+    {
+      "equipment_number": "10000131",
+      "equipment_description": "BHI - Demo equipment 'MDL-114' by Manufacturer 15 (USA)",
+      "material": "H29991014",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG14",
+        "weight": "61.307 KG",
+        "size": "28x95x47 cm",
+        "inventory_no": "INV0014",
+        "manufacturer": "Manufacturer 15",
+        "manufacturer_country": "USA",
+        "model_no": "MDL-114",
+        "construction_year": "2022",
+        "construction_month": "04",
+        "manufacturer_part_no": "MPN-514",
+        "manufacturer_serial_no": "MSN-1014",
+        "acquisition_date": "2024-06-13",
+        "material": "H29991044",
+        "delivery_date": "2025-07-15"
+      },
+      "location": {
+        "room": "Room-15",
+        "work_center": "WC-24",
+        "plant_section": "PS-34",
+        "location": "Location-44",
+        "address": "15 Main Street, City 15",
+        "sort_field": "SF-54",
+        "abc_indicator": "A",
+        "start_up_date": "2021-06-23",
+        "position": "POS-64",
+        "functional_location": "FL-74",
+        "maint_plant": "MP-84",
+        "asset_location": "AL-94",
+        "asset_number": "AN-104",
+        "asset_subnumber": "ASN-114"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000132",
+      "equipment_description": "BHI - Capitalized equipment 'MDL-115' by Manufacturer 16 (India)",
+      "material": "H29991015",
+      "general": {
+        "object_type": "BHI - Capitalized",
+        "auth_group": "AG15",
+        "weight": "37.374 KG",
+        "size": "64x68x96 cm",
+        "inventory_no": "INV0015",
+        "manufacturer": "Manufacturer 16",
+        "manufacturer_country": "India",
+        "model_no": "MDL-115",
+        "construction_year": "2020",
+        "construction_month": "05",
+        "manufacturer_part_no": "MPN-515",
+        "manufacturer_serial_no": "MSN-1015",
+        "acquisition_date": "2024-12-09",
+        "material": "H29991044",
+        "delivery_date": "2025-09-11"
+      },
+      "location": {
+        "room": "Room-16",
+        "work_center": "WC-25",
+        "plant_section": "PS-35",
+        "location": "Location-45",
+        "address": "16 Main Street, City 16",
+        "sort_field": "SF-55",
+        "abc_indicator": "C",
+        "start_up_date": "2021-03-21",
+        "position": "POS-65",
+        "functional_location": "FL-75",
+        "maint_plant": "MP-85",
+        "asset_location": "AL-95",
+        "asset_number": "AN-105",
+        "asset_subnumber": "ASN-115"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Under Maintenance",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000133",
+      "equipment_description": "BHI - Spare equipment 'MDL-116' by Manufacturer 17 (Germany)",
+      "material": "H29991016",
+      "general": {
+        "object_type": "BHI - Spare",
+        "auth_group": "AG16",
+        "weight": "96.811 KG",
+        "size": "21x56x43 cm",
+        "inventory_no": "INV0016",
+        "manufacturer": "Manufacturer 17",
+        "manufacturer_country": "Germany",
+        "model_no": "MDL-116",
+        "construction_year": "2019",
+        "construction_month": "08",
+        "manufacturer_part_no": "MPN-516",
+        "manufacturer_serial_no": "MSN-1016",
+        "acquisition_date": "2025-02-25",
+        "material": "H29991044",
+        "delivery_date": "2025-09-13"
+      },
+      "location": {
+        "room": "Room-17",
+        "work_center": "WC-26",
+        "plant_section": "PS-36",
+        "location": "Location-46",
+        "address": "17 Main Street, City 17",
+        "sort_field": "SF-56",
+        "abc_indicator": "C",
+        "start_up_date": "2021-03-16",
+        "position": "POS-66",
+        "functional_location": "FL-76",
+        "maint_plant": "MP-86",
+        "asset_location": "AL-96",
+        "asset_number": "AN-106",
+        "asset_subnumber": "ASN-116"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000134",
+      "equipment_description": "BHI - Capitalized equipment 'MDL-117' by Manufacturer 18 (India)",
+      "material": "H29991017",
+      "general": {
+        "object_type": "BHI - Capitalized",
+        "auth_group": "AG17",
+        "weight": "91.700 KG",
+        "size": "58x71x78 cm",
+        "inventory_no": "INV0017",
+        "manufacturer": "Manufacturer 18",
+        "manufacturer_country": "India",
+        "model_no": "MDL-117",
+        "construction_year": "2001",
+        "construction_month": "04",
+        "manufacturer_part_no": "MPN-517",
+        "manufacturer_serial_no": "MSN-1017",
+        "acquisition_date": "2024-04-21",
+        "material": "H29991044",
+        "delivery_date": "2025-09-05"
+      },
+      "location": {
+        "room": "Room-18",
+        "work_center": "WC-27",
+        "plant_section": "PS-37",
+        "location": "Location-47",
+        "address": "18 Main Street, City 18",
+        "sort_field": "SF-57",
+        "abc_indicator": "C",
+        "start_up_date": "2022-08-18",
+        "position": "POS-67",
+        "functional_location": "FL-77",
+        "maint_plant": "MP-87",
+        "asset_location": "AL-97",
+        "asset_number": "AN-107",
+        "asset_subnumber": "ASN-117"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000135",
+      "equipment_description": "BHI - Spare equipment 'MDL-118' by Manufacturer 19 (Japan)",
+      "material": "H29991018",
+      "general": {
+        "object_type": "BHI - Spare",
+        "auth_group": "AG18",
+        "weight": "71.246 KG",
+        "size": "48x60x54 cm",
+        "inventory_no": "INV0018",
+        "manufacturer": "Manufacturer 19",
+        "manufacturer_country": "Japan",
+        "model_no": "MDL-118",
+        "construction_year": "2018",
+        "construction_month": "09",
+        "manufacturer_part_no": "MPN-518",
+        "manufacturer_serial_no": "MSN-1018",
+        "acquisition_date": "2023-03-11",
+        "material": "H29991044",
+        "delivery_date": "2025-07-09"
+      },
+      "location": {
+        "room": "Room-19",
+        "work_center": "WC-28",
+        "plant_section": "PS-38",
+        "location": "Location-48",
+        "address": "19 Main Street, City 19",
+        "sort_field": "SF-58",
+        "abc_indicator": "C",
+        "start_up_date": "2020-09-04",
+        "position": "POS-68",
+        "functional_location": "FL-78",
+        "maint_plant": "MP-88",
+        "asset_location": "AL-98",
+        "asset_number": "AN-108",
+        "asset_subnumber": "ASN-118"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Under Maintenance",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000136",
+      "equipment_description": "BHI - Demo equipment 'MDL-119' by Manufacturer 20 (Canada)",
+      "material": "H29991019",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG19",
+        "weight": "46.298 KG",
+        "size": "54x27x93 cm",
+        "inventory_no": "INV0019",
+        "manufacturer": "Manufacturer 20",
+        "manufacturer_country": "Canada",
+        "model_no": "MDL-119",
+        "construction_year": "2005",
+        "construction_month": "02",
+        "manufacturer_part_no": "MPN-519",
+        "manufacturer_serial_no": "MSN-1019",
+        "acquisition_date": "2023-12-29",
+        "material": "H29991044",
+        "delivery_date": "2025-08-06"
+      },
+      "location": {
+        "room": "Room-20",
+        "work_center": "WC-29",
+        "plant_section": "PS-39",
+        "location": "Location-49",
+        "address": "20 Main Street, City 20",
+        "sort_field": "SF-59",
+        "abc_indicator": "B",
+        "start_up_date": "2021-02-06",
+        "position": "POS-69",
+        "functional_location": "FL-79",
+        "maint_plant": "MP-89",
+        "asset_location": "AL-99",
+        "asset_number": "AN-109",
+        "asset_subnumber": "ASN-119"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG01",
+          "main_work_center": "MWC01",
+          "catalog_profile": "CP01"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000137",
+      "equipment_description": "BHI - Demo equipment 'MDL-119' by Manufacturer 21 (Country 21)",
+      "material": "H29991100",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG20",
+        "weight": "49.453 KG",
+        "size": "53x33x106 cm",
+        "inventory_no": "INV1000",
+        "manufacturer": "Manufacturer 21",
+        "manufacturer_country": "Country 21",
+        "model_no": "MDL-119",
+        "construction_year": "2011",
+        "construction_month": "07",
+        "manufacturer_part_no": "MPN-500",
+        "manufacturer_serial_no": "MSN-1000",
+        "acquisition_date": "2023-02-16",
+        "material": "H29991140",
+        "delivery_date": "2025-04-04"
+      },
+      "location": {
+        "room": "Room-21",
+        "work_center": "WC-30",
+        "plant_section": "PS-40",
+        "location": "Location-50",
+        "address": "21 Main Street, City 21",
+        "sort_field": "SF-60",
+        "abc_indicator": "B",
+        "start_up_date": "2021-01-17",
+        "position": "POS-70",
+        "functional_location": "FL-80",
+        "maint_plant": "MP-90",
+        "asset_location": "AL-100",
+        "asset_number": "AN-110",
+        "asset_subnumber": "ASN-120"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12345",
+          "cost_center": "CC100",
+          "wbs_element": "00000000",
+          "standing_order": "SO123",
+          "settlement_order": "SET456"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG1",
+          "main_work_center": "MWC1",
+          "catalog_profile": "CP1"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000138",
+      "equipment_description": "BHI - Demo equipment 'MDL-120' by Manufacturer 22 (Country 22)",
+      "material": "H29991101",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG21",
+        "weight": "41.645 KG",
+        "size": "51x27x95 cm",
+        "inventory_no": "INV1001",
+        "manufacturer": "Manufacturer 22",
+        "manufacturer_country": "Country 22",
+        "model_no": "MDL-120",
+        "construction_year": "2019",
+        "construction_month": "06",
+        "manufacturer_part_no": "MPN-501",
+        "manufacturer_serial_no": "MSN-1001",
+        "acquisition_date": "2023-04-16",
+        "material": "H29991141",
+        "delivery_date": "2025-11-28"
+      },
+      "location": {
+        "room": "Room-22",
+        "work_center": "WC-31",
+        "plant_section": "PS-41",
+        "location": "Location-51",
+        "address": "22 Main Street, City 22",
+        "sort_field": "SF-61",
+        "abc_indicator": "C",
+        "start_up_date": "2021-02-16",
+        "position": "POS-71",
+        "functional_location": "FL-81",
+        "maint_plant": "MP-91",
+        "asset_location": "AL-101",
+        "asset_number": "AN-111",
+        "asset_subnumber": "ASN-121"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12346",
+          "cost_center": "CC101",
+          "wbs_element": "00000000",
+          "standing_order": "SO124",
+          "settlement_order": "SET457"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG2",
+          "main_work_center": "MWC2",
+          "catalog_profile": "CP2"
+        }
+      },
+      "status": {
+        "system_status": "Maintenance",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000139",
+      "equipment_description": "BHI - Demo equipment 'MDL-121' by Manufacturer 23 (Country 23)",
+      "material": "H29991102",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG22",
+        "weight": "49.424 KG",
+        "size": "67x35x109 cm",
+        "inventory_no": "INV1002",
+        "manufacturer": "Manufacturer 23",
+        "manufacturer_country": "Country 23",
+        "model_no": "MDL-121",
+        "construction_year": "2015",
+        "construction_month": "07",
+        "manufacturer_part_no": "MPN-502",
+        "manufacturer_serial_no": "MSN-1002",
+        "acquisition_date": "2023-12-07",
+        "material": "H29991142",
+        "delivery_date": "2025-09-26"
+      },
+      "location": {
+        "room": "Room-23",
+        "work_center": "WC-32",
+        "plant_section": "PS-42",
+        "location": "Location-52",
+        "address": "23 Main Street, City 23",
+        "sort_field": "SF-62",
+        "abc_indicator": "B",
+        "start_up_date": "2021-09-27",
+        "position": "POS-72",
+        "functional_location": "FL-82",
+        "maint_plant": "MP-92",
+        "asset_location": "AL-102",
+        "asset_number": "AN-112",
+        "asset_subnumber": "ASN-122"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12347",
+          "cost_center": "CC102",
+          "wbs_element": "00000000",
+          "standing_order": "SO125",
+          "settlement_order": "SET458"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG3",
+          "main_work_center": "MWC3",
+          "catalog_profile": "CP3"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Decommissioned"
+      }
+    },
+    {
+      "equipment_number": "10000140",
+      "equipment_description": "BHI - Demo equipment 'MDL-122' by Manufacturer 24 (Country 24)",
+      "material": "H29991103",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG23",
+        "weight": "57.524 KG",
+        "size": "58x25x109 cm",
+        "inventory_no": "INV1003",
+        "manufacturer": "Manufacturer 24",
+        "manufacturer_country": "Country 24",
+        "model_no": "MDL-122",
+        "construction_year": "2019",
+        "construction_month": "05",
+        "manufacturer_part_no": "MPN-503",
+        "manufacturer_serial_no": "MSN-1003",
+        "acquisition_date": "2023-12-11",
+        "material": "H29991143",
+        "delivery_date": "2025-11-14"
+      },
+      "location": {
+        "room": "Room-24",
+        "work_center": "WC-33",
+        "plant_section": "PS-43",
+        "location": "Location-53",
+        "address": "24 Main Street, City 24",
+        "sort_field": "SF-63",
+        "abc_indicator": "C",
+        "start_up_date": "2021-03-04",
+        "position": "POS-73",
+        "functional_location": "FL-83",
+        "maint_plant": "MP-93",
+        "asset_location": "AL-103",
+        "asset_number": "AN-113",
+        "asset_subnumber": "ASN-123"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12348",
+          "cost_center": "CC103",
+          "wbs_element": "00000000",
+          "standing_order": "SO126",
+          "settlement_order": "SET459"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG4",
+          "main_work_center": "MWC4",
+          "catalog_profile": "CP4"
+        }
+      },
+      "status": {
+        "system_status": "Maintenance",
+        "user_status": "Decommissioned"
+      }
+    },
+    {
+      "equipment_number": "10000141",
+      "equipment_description": "BHI - Demo equipment 'MDL-123' by Manufacturer 25 (Country 25)",
+      "material": "H29991104",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG24",
+        "weight": "44.224 KG",
+        "size": "66x34x91 cm",
+        "inventory_no": "INV1004",
+        "manufacturer": "Manufacturer 25",
+        "manufacturer_country": "Country 25",
+        "model_no": "MDL-123",
+        "construction_year": "2004",
+        "construction_month": "11",
+        "manufacturer_part_no": "MPN-504",
+        "manufacturer_serial_no": "MSN-1004",
+        "acquisition_date": "2023-05-08",
+        "material": "H29991144",
+        "delivery_date": "2025-05-13"
+      },
+      "location": {
+        "room": "Room-25",
+        "work_center": "WC-34",
+        "plant_section": "PS-44",
+        "location": "Location-54",
+        "address": "25 Main Street, City 25",
+        "sort_field": "SF-64",
+        "abc_indicator": "A",
+        "start_up_date": "2021-09-09",
+        "position": "POS-74",
+        "functional_location": "FL-84",
+        "maint_plant": "MP-94",
+        "asset_location": "AL-104",
+        "asset_number": "AN-114",
+        "asset_subnumber": "ASN-124"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12349",
+          "cost_center": "CC104",
+          "wbs_element": "00000000",
+          "standing_order": "SO127",
+          "settlement_order": "SET460"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG5",
+          "main_work_center": "MWC5",
+          "catalog_profile": "CP5"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000142",
+      "equipment_description": "BHI - Demo equipment 'MDL-124' by Manufacturer 26 (Country 26)",
+      "material": "H29991105",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG25",
+        "weight": "58.63 KG",
+        "size": "56x35x93 cm",
+        "inventory_no": "INV1005",
+        "manufacturer": "Manufacturer 26",
+        "manufacturer_country": "Country 26",
+        "model_no": "MDL-124",
+        "construction_year": "2014",
+        "construction_month": "05",
+        "manufacturer_part_no": "MPN-505",
+        "manufacturer_serial_no": "MSN-1005",
+        "acquisition_date": "2023-09-22",
+        "material": "H29991145",
+        "delivery_date": "2025-05-26"
+      },
+      "location": {
+        "room": "Room-26",
+        "work_center": "WC-35",
+        "plant_section": "PS-45",
+        "location": "Location-55",
+        "address": "26 Main Street, City 26",
+        "sort_field": "SF-65",
+        "abc_indicator": "B",
+        "start_up_date": "2021-01-26",
+        "position": "POS-75",
+        "functional_location": "FL-85",
+        "maint_plant": "MP-95",
+        "asset_location": "AL-105",
+        "asset_number": "AN-115",
+        "asset_subnumber": "ASN-125"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12350",
+          "cost_center": "CC105",
+          "wbs_element": "00000000",
+          "standing_order": "SO128",
+          "settlement_order": "SET461"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG6",
+          "main_work_center": "MWC6",
+          "catalog_profile": "CP6"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000143",
+      "equipment_description": "BHI - Demo equipment 'MDL-125' by Manufacturer 27 (Country 27)",
+      "material": "H29991106",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG26",
+        "weight": "44.889 KG",
+        "size": "61x28x109 cm",
+        "inventory_no": "INV1006",
+        "manufacturer": "Manufacturer 27",
+        "manufacturer_country": "Country 27",
+        "model_no": "MDL-125",
+        "construction_year": "2007",
+        "construction_month": "12",
+        "manufacturer_part_no": "MPN-506",
+        "manufacturer_serial_no": "MSN-1006",
+        "acquisition_date": "2023-08-13",
+        "material": "H29991146",
+        "delivery_date": "2025-08-15"
+      },
+      "location": {
+        "room": "Room-27",
+        "work_center": "WC-36",
+        "plant_section": "PS-46",
+        "location": "Location-56",
+        "address": "27 Main Street, City 27",
+        "sort_field": "SF-66",
+        "abc_indicator": "A",
+        "start_up_date": "2021-03-21",
+        "position": "POS-76",
+        "functional_location": "FL-86",
+        "maint_plant": "MP-96",
+        "asset_location": "AL-106",
+        "asset_number": "AN-116",
+        "asset_subnumber": "ASN-126"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12351",
+          "cost_center": "CC106",
+          "wbs_element": "00000000",
+          "standing_order": "SO129",
+          "settlement_order": "SET462"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG7",
+          "main_work_center": "MWC7",
+          "catalog_profile": "CP7"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000144",
+      "equipment_description": "BHI - Demo equipment 'MDL-126' by Manufacturer 28 (Country 28)",
+      "material": "H29991107",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG27",
+        "weight": "51.527 KG",
+        "size": "70x25x91 cm",
+        "inventory_no": "INV1007",
+        "manufacturer": "Manufacturer 28",
+        "manufacturer_country": "Country 28",
+        "model_no": "MDL-126",
+        "construction_year": "2021",
+        "construction_month": "04",
+        "manufacturer_part_no": "MPN-507",
+        "manufacturer_serial_no": "MSN-1007",
+        "acquisition_date": "2023-10-14",
+        "material": "H29991147",
+        "delivery_date": "2025-04-22"
+      },
+      "location": {
+        "room": "Room-28",
+        "work_center": "WC-37",
+        "plant_section": "PS-47",
+        "location": "Location-57",
+        "address": "28 Main Street, City 28",
+        "sort_field": "SF-67",
+        "abc_indicator": "C",
+        "start_up_date": "2021-09-09",
+        "position": "POS-77",
+        "functional_location": "FL-87",
+        "maint_plant": "MP-97",
+        "asset_location": "AL-107",
+        "asset_number": "AN-117",
+        "asset_subnumber": "ASN-127"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12352",
+          "cost_center": "CC107",
+          "wbs_element": "00000000",
+          "standing_order": "SO130",
+          "settlement_order": "SET463"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG8",
+          "main_work_center": "MWC8",
+          "catalog_profile": "CP8"
+        }
+      },
+      "status": {
+        "system_status": "Maintenance",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000145",
+      "equipment_description": "BHI - Demo equipment 'MDL-127' by Manufacturer 29 (Country 29)",
+      "material": "H29991108",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG28",
+        "weight": "51.541 KG",
+        "size": "54x27x105 cm",
+        "inventory_no": "INV1008",
+        "manufacturer": "Manufacturer 29",
+        "manufacturer_country": "Country 29",
+        "model_no": "MDL-127",
+        "construction_year": "2023",
+        "construction_month": "01",
+        "manufacturer_part_no": "MPN-508",
+        "manufacturer_serial_no": "MSN-1008",
+        "acquisition_date": "2023-08-04",
+        "material": "H29991148",
+        "delivery_date": "2025-10-24"
+      },
+      "location": {
+        "room": "Room-29",
+        "work_center": "WC-38",
+        "plant_section": "PS-48",
+        "location": "Location-58",
+        "address": "29 Main Street, City 29",
+        "sort_field": "SF-68",
+        "abc_indicator": "C",
+        "start_up_date": "2021-03-20",
+        "position": "POS-78",
+        "functional_location": "FL-88",
+        "maint_plant": "MP-98",
+        "asset_location": "AL-108",
+        "asset_number": "AN-118",
+        "asset_subnumber": "ASN-128"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12353",
+          "cost_center": "CC108",
+          "wbs_element": "00000000",
+          "standing_order": "SO131",
+          "settlement_order": "SET464"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG9",
+          "main_work_center": "MWC9",
+          "catalog_profile": "CP9"
+        }
+      },
+      "status": {
+        "system_status": "Maintenance",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000146",
+      "equipment_description": "BHI - Demo equipment 'MDL-128' by Manufacturer 30 (Country 30)",
+      "material": "H29991109",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG29",
+        "weight": "55.566 KG",
+        "size": "54x32x98 cm",
+        "inventory_no": "INV1009",
+        "manufacturer": "Manufacturer 30",
+        "manufacturer_country": "Country 30",
+        "model_no": "MDL-128",
+        "construction_year": "2015",
+        "construction_month": "05",
+        "manufacturer_part_no": "MPN-509",
+        "manufacturer_serial_no": "MSN-1009",
+        "acquisition_date": "2023-02-11",
+        "material": "H29991149",
+        "delivery_date": "2025-02-16"
+      },
+      "location": {
+        "room": "Room-30",
+        "work_center": "WC-39",
+        "plant_section": "PS-49",
+        "location": "Location-59",
+        "address": "30 Main Street, City 30",
+        "sort_field": "SF-69",
+        "abc_indicator": "C",
+        "start_up_date": "2021-12-04",
+        "position": "POS-79",
+        "functional_location": "FL-89",
+        "maint_plant": "MP-99",
+        "asset_location": "AL-109",
+        "asset_number": "AN-119",
+        "asset_subnumber": "ASN-129"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12354",
+          "cost_center": "CC109",
+          "wbs_element": "00000000",
+          "standing_order": "SO132",
+          "settlement_order": "SET465"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG10",
+          "main_work_center": "MWC10",
+          "catalog_profile": "CP10"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000147",
+      "equipment_description": "BHI - Demo equipment 'MDL-129' by Manufacturer 31 (Country 31)",
+      "material": "H29991110",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG30",
+        "weight": "48.634 KG",
+        "size": "61x26x93 cm",
+        "inventory_no": "INV1010",
+        "manufacturer": "Manufacturer 31",
+        "manufacturer_country": "Country 31",
+        "model_no": "MDL-129",
+        "construction_year": "2011",
+        "construction_month": "07",
+        "manufacturer_part_no": "MPN-510",
+        "manufacturer_serial_no": "MSN-1010",
+        "acquisition_date": "2023-06-19",
+        "material": "H29991150",
+        "delivery_date": "2025-10-03"
+      },
+      "location": {
+        "room": "Room-31",
+        "work_center": "WC-40",
+        "plant_section": "PS-50",
+        "location": "Location-60",
+        "address": "31 Main Street, City 31",
+        "sort_field": "SF-70",
+        "abc_indicator": "C",
+        "start_up_date": "2021-03-11",
+        "position": "POS-80",
+        "functional_location": "FL-90",
+        "maint_plant": "MP-100",
+        "asset_location": "AL-110",
+        "asset_number": "AN-120",
+        "asset_subnumber": "ASN-130"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12355",
+          "cost_center": "CC110",
+          "wbs_element": "00000000",
+          "standing_order": "SO133",
+          "settlement_order": "SET466"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG11",
+          "main_work_center": "MWC11",
+          "catalog_profile": "CP11"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Decommissioned"
+      }
+    },
+    {
+      "equipment_number": "10000148",
+      "equipment_description": "BHI - Demo equipment 'MDL-130' by Manufacturer 32 (Country 32)",
+      "material": "H29991111",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG31",
+        "weight": "44.876 KG",
+        "size": "63x29x102 cm",
+        "inventory_no": "INV1011",
+        "manufacturer": "Manufacturer 32",
+        "manufacturer_country": "Country 32",
+        "model_no": "MDL-130",
+        "construction_year": "2016",
+        "construction_month": "06",
+        "manufacturer_part_no": "MPN-511",
+        "manufacturer_serial_no": "MSN-1011",
+        "acquisition_date": "2023-01-26",
+        "material": "H29991151",
+        "delivery_date": "2025-11-06"
+      },
+      "location": {
+        "room": "Room-32",
+        "work_center": "WC-41",
+        "plant_section": "PS-51",
+        "location": "Location-61",
+        "address": "32 Main Street, City 32",
+        "sort_field": "SF-71",
+        "abc_indicator": "A",
+        "start_up_date": "2021-10-03",
+        "position": "POS-81",
+        "functional_location": "FL-91",
+        "maint_plant": "MP-101",
+        "asset_location": "AL-111",
+        "asset_number": "AN-121",
+        "asset_subnumber": "ASN-131"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12356",
+          "cost_center": "CC111",
+          "wbs_element": "00000000",
+          "standing_order": "SO134",
+          "settlement_order": "SET467"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG12",
+          "main_work_center": "MWC12",
+          "catalog_profile": "CP12"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000149",
+      "equipment_description": "BHI - Demo equipment 'MDL-131' by Manufacturer 33 (Country 33)",
+      "material": "H29991112",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG32",
+        "weight": "42.474 KG",
+        "size": "66x29x97 cm",
+        "inventory_no": "INV1012",
+        "manufacturer": "Manufacturer 33",
+        "manufacturer_country": "Country 33",
+        "model_no": "MDL-131",
+        "construction_year": "2022",
+        "construction_month": "05",
+        "manufacturer_part_no": "MPN-512",
+        "manufacturer_serial_no": "MSN-1012",
+        "acquisition_date": "2023-04-14",
+        "material": "H29991152",
+        "delivery_date": "2025-07-19"
+      },
+      "location": {
+        "room": "Room-33",
+        "work_center": "WC-42",
+        "plant_section": "PS-52",
+        "location": "Location-62",
+        "address": "33 Main Street, City 33",
+        "sort_field": "SF-72",
+        "abc_indicator": "B",
+        "start_up_date": "2021-11-16",
+        "position": "POS-82",
+        "functional_location": "FL-92",
+        "maint_plant": "MP-102",
+        "asset_location": "AL-112",
+        "asset_number": "AN-122",
+        "asset_subnumber": "ASN-132"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12357",
+          "cost_center": "CC112",
+          "wbs_element": "00000000",
+          "standing_order": "SO135",
+          "settlement_order": "SET468"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG13",
+          "main_work_center": "MWC13",
+          "catalog_profile": "CP13"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000150",
+      "equipment_description": "BHI - Demo equipment 'MDL-132' by Manufacturer 34 (Country 34)",
+      "material": "H29991113",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG33",
+        "weight": "54.781 KG",
+        "size": "64x26x107 cm",
+        "inventory_no": "INV1013",
+        "manufacturer": "Manufacturer 34",
+        "manufacturer_country": "Country 34",
+        "model_no": "MDL-132",
+        "construction_year": "2023",
+        "construction_month": "07",
+        "manufacturer_part_no": "MPN-513",
+        "manufacturer_serial_no": "MSN-1013",
+        "acquisition_date": "2023-06-04",
+        "material": "H29991153",
+        "delivery_date": "2025-07-22"
+      },
+      "location": {
+        "room": "Room-34",
+        "work_center": "WC-43",
+        "plant_section": "PS-53",
+        "location": "Location-63",
+        "address": "34 Main Street, City 34",
+        "sort_field": "SF-73",
+        "abc_indicator": "B",
+        "start_up_date": "2021-05-16",
+        "position": "POS-83",
+        "functional_location": "FL-93",
+        "maint_plant": "MP-103",
+        "asset_location": "AL-113",
+        "asset_number": "AN-123",
+        "asset_subnumber": "ASN-133"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12358",
+          "cost_center": "CC113",
+          "wbs_element": "00000000",
+          "standing_order": "SO136",
+          "settlement_order": "SET469"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG14",
+          "main_work_center": "MWC14",
+          "catalog_profile": "CP14"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000151",
+      "equipment_description": "BHI - Demo equipment 'MDL-133' by Manufacturer 35 (Country 35)",
+      "material": "H29991114",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG34",
+        "weight": "48.448 KG",
+        "size": "51x25x96 cm",
+        "inventory_no": "INV1014",
+        "manufacturer": "Manufacturer 35",
+        "manufacturer_country": "Country 35",
+        "model_no": "MDL-133",
+        "construction_year": "2014",
+        "construction_month": "01",
+        "manufacturer_part_no": "MPN-514",
+        "manufacturer_serial_no": "MSN-1014",
+        "acquisition_date": "2023-02-05",
+        "material": "H29991154",
+        "delivery_date": "2025-12-04"
+      },
+      "location": {
+        "room": "Room-35",
+        "work_center": "WC-44",
+        "plant_section": "PS-54",
+        "location": "Location-64",
+        "address": "35 Main Street, City 35",
+        "sort_field": "SF-74",
+        "abc_indicator": "A",
+        "start_up_date": "2021-02-09",
+        "position": "POS-84",
+        "functional_location": "FL-94",
+        "maint_plant": "MP-104",
+        "asset_location": "AL-114",
+        "asset_number": "AN-124",
+        "asset_subnumber": "ASN-134"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12359",
+          "cost_center": "CC114",
+          "wbs_element": "00000000",
+          "standing_order": "SO137",
+          "settlement_order": "SET470"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG15",
+          "main_work_center": "MWC15",
+          "catalog_profile": "CP15"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000152",
+      "equipment_description": "BHI - Demo equipment 'MDL-134' by Manufacturer 36 (Country 36)",
+      "material": "H29991115",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG35",
+        "weight": "52.946 KG",
+        "size": "63x33x104 cm",
+        "inventory_no": "INV1015",
+        "manufacturer": "Manufacturer 36",
+        "manufacturer_country": "Country 36",
+        "model_no": "MDL-134",
+        "construction_year": "2016",
+        "construction_month": "11",
+        "manufacturer_part_no": "MPN-515",
+        "manufacturer_serial_no": "MSN-1015",
+        "acquisition_date": "2023-09-02",
+        "material": "H29991155",
+        "delivery_date": "2025-04-17"
+      },
+      "location": {
+        "room": "Room-36",
+        "work_center": "WC-45",
+        "plant_section": "PS-55",
+        "location": "Location-65",
+        "address": "36 Main Street, City 36",
+        "sort_field": "SF-75",
+        "abc_indicator": "C",
+        "start_up_date": "2021-12-26",
+        "position": "POS-85",
+        "functional_location": "FL-95",
+        "maint_plant": "MP-105",
+        "asset_location": "AL-115",
+        "asset_number": "AN-125",
+        "asset_subnumber": "ASN-135"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12360",
+          "cost_center": "CC115",
+          "wbs_element": "00000000",
+          "standing_order": "SO138",
+          "settlement_order": "SET471"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG16",
+          "main_work_center": "MWC16",
+          "catalog_profile": "CP16"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Decommissioned"
+      }
+    },
+    {
+      "equipment_number": "10000153",
+      "equipment_description": "BHI - Demo equipment 'MDL-135' by Manufacturer 37 (Country 37)",
+      "material": "H29991116",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG36",
+        "weight": "41.313 KG",
+        "size": "58x35x100 cm",
+        "inventory_no": "INV1016",
+        "manufacturer": "Manufacturer 37",
+        "manufacturer_country": "Country 37",
+        "model_no": "MDL-135",
+        "construction_year": "2015",
+        "construction_month": "01",
+        "manufacturer_part_no": "MPN-516",
+        "manufacturer_serial_no": "MSN-1016",
+        "acquisition_date": "2023-06-04",
+        "material": "H29991156",
+        "delivery_date": "2025-08-25"
+      },
+      "location": {
+        "room": "Room-37",
+        "work_center": "WC-46",
+        "plant_section": "PS-56",
+        "location": "Location-66",
+        "address": "37 Main Street, City 37",
+        "sort_field": "SF-76",
+        "abc_indicator": "A",
+        "start_up_date": "2021-06-14",
+        "position": "POS-86",
+        "functional_location": "FL-96",
+        "maint_plant": "MP-106",
+        "asset_location": "AL-116",
+        "asset_number": "AN-126",
+        "asset_subnumber": "ASN-136"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12361",
+          "cost_center": "CC116",
+          "wbs_element": "00000000",
+          "standing_order": "SO139",
+          "settlement_order": "SET472"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG17",
+          "main_work_center": "MWC17",
+          "catalog_profile": "CP17"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Decommissioned"
+      }
+    },
+    {
+      "equipment_number": "10000154",
+      "equipment_description": "BHI - Demo equipment 'MDL-136' by Manufacturer 38 (Country 38)",
+      "material": "H29991117",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG37",
+        "weight": "42.799 KG",
+        "size": "50x33x90 cm",
+        "inventory_no": "INV1017",
+        "manufacturer": "Manufacturer 38",
+        "manufacturer_country": "Country 38",
+        "model_no": "MDL-136",
+        "construction_year": "2010",
+        "construction_month": "07",
+        "manufacturer_part_no": "MPN-517",
+        "manufacturer_serial_no": "MSN-1017",
+        "acquisition_date": "2023-08-18",
+        "material": "H29991157",
+        "delivery_date": "2025-02-19"
+      },
+      "location": {
+        "room": "Room-38",
+        "work_center": "WC-47",
+        "plant_section": "PS-57",
+        "location": "Location-67",
+        "address": "38 Main Street, City 38",
+        "sort_field": "SF-77",
+        "abc_indicator": "C",
+        "start_up_date": "2021-05-23",
+        "position": "POS-87",
+        "functional_location": "FL-97",
+        "maint_plant": "MP-107",
+        "asset_location": "AL-117",
+        "asset_number": "AN-127",
+        "asset_subnumber": "ASN-137"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12362",
+          "cost_center": "CC117",
+          "wbs_element": "00000000",
+          "standing_order": "SO140",
+          "settlement_order": "SET473"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG18",
+          "main_work_center": "MWC18",
+          "catalog_profile": "CP18"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000155",
+      "equipment_description": "BHI - Demo equipment 'MDL-137' by Manufacturer 39 (Country 39)",
+      "material": "H29991118",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG38",
+        "weight": "45.981 KG",
+        "size": "54x31x108 cm",
+        "inventory_no": "INV1018",
+        "manufacturer": "Manufacturer 39",
+        "manufacturer_country": "Country 39",
+        "model_no": "MDL-137",
+        "construction_year": "2002",
+        "construction_month": "01",
+        "manufacturer_part_no": "MPN-518",
+        "manufacturer_serial_no": "MSN-1018",
+        "acquisition_date": "2023-08-09",
+        "material": "H29991158",
+        "delivery_date": "2025-01-24"
+      },
+      "location": {
+        "room": "Room-39",
+        "work_center": "WC-48",
+        "plant_section": "PS-58",
+        "location": "Location-68",
+        "address": "39 Main Street, City 39",
+        "sort_field": "SF-78",
+        "abc_indicator": "A",
+        "start_up_date": "2021-04-23",
+        "position": "POS-88",
+        "functional_location": "FL-98",
+        "maint_plant": "MP-108",
+        "asset_location": "AL-118",
+        "asset_number": "AN-128",
+        "asset_subnumber": "ASN-138"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12363",
+          "cost_center": "CC118",
+          "wbs_element": "00000000",
+          "standing_order": "SO141",
+          "settlement_order": "SET474"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG19",
+          "main_work_center": "MWC19",
+          "catalog_profile": "CP19"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Decommissioned"
+      }
+    },
+    {
+      "equipment_number": "10000156",
+      "equipment_description": "BHI - Demo equipment 'MDL-138' by Manufacturer 40 (Country 40)",
+      "material": "H29991119",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG39",
+        "weight": "55.82 KG",
+        "size": "55x27x107 cm",
+        "inventory_no": "INV1019",
+        "manufacturer": "Manufacturer 40",
+        "manufacturer_country": "Country 40",
+        "model_no": "MDL-138",
+        "construction_year": "2021",
+        "construction_month": "10",
+        "manufacturer_part_no": "MPN-519",
+        "manufacturer_serial_no": "MSN-1019",
+        "acquisition_date": "2023-11-02",
+        "material": "H29991159",
+        "delivery_date": "2025-01-27"
+      },
+      "location": {
+        "room": "Room-40",
+        "work_center": "WC-49",
+        "plant_section": "PS-59",
+        "location": "Location-69",
+        "address": "40 Main Street, City 40",
+        "sort_field": "SF-79",
+        "abc_indicator": "B",
+        "start_up_date": "2021-02-26",
+        "position": "POS-89",
+        "functional_location": "FL-99",
+        "maint_plant": "MP-109",
+        "asset_location": "AL-119",
+        "asset_number": "AN-129",
+        "asset_subnumber": "ASN-139"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12364",
+          "cost_center": "CC119",
+          "wbs_element": "00000000",
+          "standing_order": "SO142",
+          "settlement_order": "SET475"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG20",
+          "main_work_center": "MWC20",
+          "catalog_profile": "CP20"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000157",
+      "equipment_description": "BHI - Demo equipment 'MDL-139' by Manufacturer 41 (Country 41)",
+      "material": "H29991120",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG40",
+        "weight": "47.531 KG",
+        "size": "66x32x93 cm",
+        "inventory_no": "INV1020",
+        "manufacturer": "Manufacturer 41",
+        "manufacturer_country": "Country 41",
+        "model_no": "MDL-139",
+        "construction_year": "2012",
+        "construction_month": "04",
+        "manufacturer_part_no": "MPN-520",
+        "manufacturer_serial_no": "MSN-1020",
+        "acquisition_date": "2023-09-05",
+        "material": "H29991160",
+        "delivery_date": "2025-02-28"
+      },
+      "location": {
+        "room": "Room-41",
+        "work_center": "WC-50",
+        "plant_section": "PS-60",
+        "location": "Location-70",
+        "address": "41 Main Street, City 41",
+        "sort_field": "SF-80",
+        "abc_indicator": "A",
+        "start_up_date": "2021-06-25",
+        "position": "POS-90",
+        "functional_location": "FL-100",
+        "maint_plant": "MP-110",
+        "asset_location": "AL-120",
+        "asset_number": "AN-130",
+        "asset_subnumber": "ASN-140"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12365",
+          "cost_center": "CC120",
+          "wbs_element": "00000000",
+          "standing_order": "SO143",
+          "settlement_order": "SET476"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG21",
+          "main_work_center": "MWC21",
+          "catalog_profile": "CP21"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Decommissioned"
+      }
+    },
+    {
+      "equipment_number": "10000158",
+      "equipment_description": "BHI - Demo equipment 'MDL-140' by Manufacturer 42 (Country 42)",
+      "material": "H29991121",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG41",
+        "weight": "56.899 KG",
+        "size": "66x26x94 cm",
+        "inventory_no": "INV1021",
+        "manufacturer": "Manufacturer 42",
+        "manufacturer_country": "Country 42",
+        "model_no": "MDL-140",
+        "construction_year": "2000",
+        "construction_month": "09",
+        "manufacturer_part_no": "MPN-521",
+        "manufacturer_serial_no": "MSN-1021",
+        "acquisition_date": "2023-07-21",
+        "material": "H29991161",
+        "delivery_date": "2025-03-04"
+      },
+      "location": {
+        "room": "Room-42",
+        "work_center": "WC-51",
+        "plant_section": "PS-61",
+        "location": "Location-71",
+        "address": "42 Main Street, City 42",
+        "sort_field": "SF-81",
+        "abc_indicator": "C",
+        "start_up_date": "2021-06-11",
+        "position": "POS-91",
+        "functional_location": "FL-101",
+        "maint_plant": "MP-111",
+        "asset_location": "AL-121",
+        "asset_number": "AN-131",
+        "asset_subnumber": "ASN-141"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12366",
+          "cost_center": "CC121",
+          "wbs_element": "00000000",
+          "standing_order": "SO144",
+          "settlement_order": "SET477"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG22",
+          "main_work_center": "MWC22",
+          "catalog_profile": "CP22"
+        }
+      },
+      "status": {
+        "system_status": "Maintenance",
+        "user_status": "Operational"
+      }
+    },
+    {
+      "equipment_number": "10000159",
+      "equipment_description": "BHI - Demo equipment 'MDL-141' by Manufacturer 43 (Country 43)",
+      "material": "H29991122",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG42",
+        "weight": "42.112 KG",
+        "size": "70x29x100 cm",
+        "inventory_no": "INV1022",
+        "manufacturer": "Manufacturer 43",
+        "manufacturer_country": "Country 43",
+        "model_no": "MDL-141",
+        "construction_year": "2015",
+        "construction_month": "11",
+        "manufacturer_part_no": "MPN-522",
+        "manufacturer_serial_no": "MSN-1022",
+        "acquisition_date": "2023-01-12",
+        "material": "H29991162",
+        "delivery_date": "2025-04-16"
+      },
+      "location": {
+        "room": "Room-43",
+        "work_center": "WC-52",
+        "plant_section": "PS-62",
+        "location": "Location-72",
+        "address": "43 Main Street, City 43",
+        "sort_field": "SF-82",
+        "abc_indicator": "A",
+        "start_up_date": "2021-06-21",
+        "position": "POS-92",
+        "functional_location": "FL-102",
+        "maint_plant": "MP-112",
+        "asset_location": "AL-122",
+        "asset_number": "AN-132",
+        "asset_subnumber": "ASN-142"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12367",
+          "cost_center": "CC122",
+          "wbs_element": "00000000",
+          "standing_order": "SO145",
+          "settlement_order": "SET478"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG23",
+          "main_work_center": "MWC23",
+          "catalog_profile": "CP23"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Decommissioned"
+      }
+    },
+    {
+      "equipment_number": "10000160",
+      "equipment_description": "BHI - Demo equipment 'MDL-142' by Manufacturer 44 (Country 44)",
+      "material": "H29991123",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG43",
+        "weight": "49.577 KG",
+        "size": "57x29x96 cm",
+        "inventory_no": "INV1023",
+        "manufacturer": "Manufacturer 44",
+        "manufacturer_country": "Country 44",
+        "model_no": "MDL-142",
+        "construction_year": "2013",
+        "construction_month": "02",
+        "manufacturer_part_no": "MPN-523",
+        "manufacturer_serial_no": "MSN-1023",
+        "acquisition_date": "2023-07-18",
+        "material": "H29991163",
+        "delivery_date": "2025-10-04"
+      },
+      "location": {
+        "room": "Room-44",
+        "work_center": "WC-53",
+        "plant_section": "PS-63",
+        "location": "Location-73",
+        "address": "44 Main Street, City 44",
+        "sort_field": "SF-83",
+        "abc_indicator": "A",
+        "start_up_date": "2021-06-19",
+        "position": "POS-93",
+        "functional_location": "FL-103",
+        "maint_plant": "MP-113",
+        "asset_location": "AL-123",
+        "asset_number": "AN-133",
+        "asset_subnumber": "ASN-143"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12368",
+          "cost_center": "CC123",
+          "wbs_element": "00000000",
+          "standing_order": "SO146",
+          "settlement_order": "SET479"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG24",
+          "main_work_center": "MWC24",
+          "catalog_profile": "CP24"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000161",
+      "equipment_description": "BHI - Demo equipment 'MDL-143' by Manufacturer 45 (Country 45)",
+      "material": "H29991124",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG44",
+        "weight": "51.126 KG",
+        "size": "57x29x91 cm",
+        "inventory_no": "INV1024",
+        "manufacturer": "Manufacturer 45",
+        "manufacturer_country": "Country 45",
+        "model_no": "MDL-143",
+        "construction_year": "2017",
+        "construction_month": "10",
+        "manufacturer_part_no": "MPN-524",
+        "manufacturer_serial_no": "MSN-1024",
+        "acquisition_date": "2023-03-09",
+        "material": "H29991164",
+        "delivery_date": "2025-02-01"
+      },
+      "location": {
+        "room": "Room-45",
+        "work_center": "WC-54",
+        "plant_section": "PS-64",
+        "location": "Location-74",
+        "address": "45 Main Street, City 45",
+        "sort_field": "SF-84",
+        "abc_indicator": "B",
+        "start_up_date": "2021-10-21",
+        "position": "POS-94",
+        "functional_location": "FL-104",
+        "maint_plant": "MP-114",
+        "asset_location": "AL-124",
+        "asset_number": "AN-134",
+        "asset_subnumber": "ASN-144"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12369",
+          "cost_center": "CC124",
+          "wbs_element": "00000000",
+          "standing_order": "SO147",
+          "settlement_order": "SET480"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG25",
+          "main_work_center": "MWC25",
+          "catalog_profile": "CP25"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000162",
+      "equipment_description": "BHI - Demo equipment 'MDL-144' by Manufacturer 46 (Country 46)",
+      "material": "H29991125",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG45",
+        "weight": "57.489 KG",
+        "size": "62x25x90 cm",
+        "inventory_no": "INV1025",
+        "manufacturer": "Manufacturer 46",
+        "manufacturer_country": "Country 46",
+        "model_no": "MDL-144",
+        "construction_year": "2015",
+        "construction_month": "10",
+        "manufacturer_part_no": "MPN-525",
+        "manufacturer_serial_no": "MSN-1025",
+        "acquisition_date": "2023-12-13",
+        "material": "H29991165",
+        "delivery_date": "2025-04-16"
+      },
+      "location": {
+        "room": "Room-46",
+        "work_center": "WC-55",
+        "plant_section": "PS-65",
+        "location": "Location-75",
+        "address": "46 Main Street, City 46",
+        "sort_field": "SF-85",
+        "abc_indicator": "C",
+        "start_up_date": "2021-03-14",
+        "position": "POS-95",
+        "functional_location": "FL-105",
+        "maint_plant": "MP-115",
+        "asset_location": "AL-125",
+        "asset_number": "AN-135",
+        "asset_subnumber": "ASN-145"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12370",
+          "cost_center": "CC125",
+          "wbs_element": "00000000",
+          "standing_order": "SO148",
+          "settlement_order": "SET481"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG26",
+          "main_work_center": "MWC26",
+          "catalog_profile": "CP26"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Decommissioned"
+      }
+    },
+    {
+      "equipment_number": "10000163",
+      "equipment_description": "BHI - Demo equipment 'MDL-145' by Manufacturer 47 (Country 47)",
+      "material": "H29991126",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG46",
+        "weight": "47.297 KG",
+        "size": "63x32x102 cm",
+        "inventory_no": "INV1026",
+        "manufacturer": "Manufacturer 47",
+        "manufacturer_country": "Country 47",
+        "model_no": "MDL-145",
+        "construction_year": "2000",
+        "construction_month": "02",
+        "manufacturer_part_no": "MPN-526",
+        "manufacturer_serial_no": "MSN-1026",
+        "acquisition_date": "2023-01-14",
+        "material": "H29991166",
+        "delivery_date": "2025-07-05"
+      },
+      "location": {
+        "room": "Room-47",
+        "work_center": "WC-56",
+        "plant_section": "PS-66",
+        "location": "Location-76",
+        "address": "47 Main Street, City 47",
+        "sort_field": "SF-86",
+        "abc_indicator": "C",
+        "start_up_date": "2021-06-17",
+        "position": "POS-96",
+        "functional_location": "FL-106",
+        "maint_plant": "MP-116",
+        "asset_location": "AL-126",
+        "asset_number": "AN-136",
+        "asset_subnumber": "ASN-146"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12371",
+          "cost_center": "CC126",
+          "wbs_element": "00000000",
+          "standing_order": "SO149",
+          "settlement_order": "SET482"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG27",
+          "main_work_center": "MWC27",
+          "catalog_profile": "CP27"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Decommissioned"
+      }
+    },
+    {
+      "equipment_number": "10000164",
+      "equipment_description": "BHI - Demo equipment 'MDL-146' by Manufacturer 48 (Country 48)",
+      "material": "H29991127",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG47",
+        "weight": "49.928 KG",
+        "size": "58x29x91 cm",
+        "inventory_no": "INV1027",
+        "manufacturer": "Manufacturer 48",
+        "manufacturer_country": "Country 48",
+        "model_no": "MDL-146",
+        "construction_year": "2001",
+        "construction_month": "01",
+        "manufacturer_part_no": "MPN-527",
+        "manufacturer_serial_no": "MSN-1027",
+        "acquisition_date": "2023-08-23",
+        "material": "H29991167",
+        "delivery_date": "2025-02-02"
+      },
+      "location": {
+        "room": "Room-48",
+        "work_center": "WC-57",
+        "plant_section": "PS-67",
+        "location": "Location-77",
+        "address": "48 Main Street, City 48",
+        "sort_field": "SF-87",
+        "abc_indicator": "B",
+        "start_up_date": "2021-03-26",
+        "position": "POS-97",
+        "functional_location": "FL-107",
+        "maint_plant": "MP-117",
+        "asset_location": "AL-127",
+        "asset_number": "AN-137",
+        "asset_subnumber": "ASN-147"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12372",
+          "cost_center": "CC127",
+          "wbs_element": "00000000",
+          "standing_order": "SO150",
+          "settlement_order": "SET483"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG28",
+          "main_work_center": "MWC28",
+          "catalog_profile": "CP28"
+        }
+      },
+      "status": {
+        "system_status": "Active",
+        "user_status": "Standby"
+      }
+    },
+    {
+      "equipment_number": "10000165",
+      "equipment_description": "BHI - Demo equipment 'MDL-147' by Manufacturer 49 (Country 49)",
+      "material": "H29991128",
+      "general": {
+        "object_type": "BHI - Demo",
+        "auth_group": "AG48",
+        "weight": "48.801 KG",
+        "size": "70x26x103 cm",
+        "inventory_no": "INV1028",
+        "manufacturer": "Manufacturer 49",
+        "manufacturer_country": "Country 49",
+        "model_no": "MDL-147",
+        "construction_year": "2014",
+        "construction_month": "03",
+        "manufacturer_part_no": "MPN-528",
+        "manufacturer_serial_no": "MSN-1028",
+        "acquisition_date": "2023-03-09",
+        "material": "H29991168",
+        "delivery_date": "2025-06-25"
+      },
+      "location": {
+        "room": "Room-49",
+        "work_center": "WC-58",
+        "plant_section": "PS-68",
+        "location": "Location-78",
+        "address": "49 Main Street, City 49",
+        "sort_field": "SF-88",
+        "abc_indicator": "C",
+        "start_up_date": "2021-04-24",
+        "position": "POS-98",
+        "functional_location": "FL-108",
+        "maint_plant": "MP-118",
+        "asset_location": "AL-128",
+        "asset_number": "AN-138",
+        "asset_subnumber": "ASN-148"
+      },
+      "organization": {
+        "account_assignment": {
+          "company_code": "1000",
+          "business_area": "BA01",
+          "asset": "A12373",
+          "cost_center": "CC128",
+          "wbs_element": "00000000",
+          "standing_order": "SO151",
+          "settlement_order": "SET484"
+        },
+        "responsibilities": {
+          "planning_plant": "PP01",
+          "planner_group": "PG29",
+          "main_work_center": "MWC29",
+          "catalog_profile": "CP29"
+        }
+      },
+      "status": {
+        "system_status": "Inactive",
+        "user_status": "Decommissioned"
+      }
+    }
+  ]
 }

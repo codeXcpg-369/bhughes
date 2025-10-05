@@ -22,6 +22,7 @@
             icon="sap-icon://nav-back"
             type="Transparent"
             press="onNavBack"
+            class="whiteIcon"
           />
           <Image
             src="/images/mky-logo.png"
@@ -41,13 +42,18 @@
           <Button
             icon="sap-icon://search"
             type="Transparent"
+            class="whiteIcon"
           />
           <Button
             icon="sap-icon://employee"
             type="Transparent"
+            class="whiteIcon"
           />
         </HBox>
       </HBox>
+
+
+
 <HBox class="titleBar" alignItems="Center">
   <HBox width="33%"></HBox>
 
@@ -55,8 +61,10 @@
     <Title text="Equipment Data Display" level="H2"/>
   </HBox>
   <HBox width="33%" justifyContent="End">
-    <Button id="modeToggleBtn" text="Display" press="onToggleMode" class="btntog"/>
+    
+    <Button icon="sap-icon://display" id="modeToggleBtn" text="Display" press="onToggleMode" class="btntog"/>
   </HBox>
+  
 </HBox>
     </VBox>
 
@@ -110,21 +118,9 @@
           <Label text="System Status" />
           <Input value="{eqModel>status/system_status}" editable="{viewModel>/isEditable}" />
           <Label text="User Status" />
-          <Select
-            id="status"
-            selectedKey="{eqModel>status/user_status}"
-          >
-            <items>
-              <core:Item
-                key="AVLB"
-                text="AVLB"
-              />
-              <core:Item
-                key="INST"
-                text="INST"
-              />
-            </items>
-          </Select>
+         <Select id="status" selectedKey="{eqModel>status/user_status}" items="{eqModel>/statusOptions}" editable="{viewModel>/isEditable}">
+              <core:Item key="{eqModel>key}" text="{eqModel>text}" />
+        </Select>
         </layout:content>
       </layout:SimpleForm>
     </VBox>
