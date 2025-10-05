@@ -153,3 +153,24 @@
 .whiteIcon .sapMBtnIcon {
   color: white !important;
 }
+.whiteIconButton .sapMBtnInner {
+  background-color: rgb(49, 143, 107) !important;
+}
+
+.whiteIconButton:hover .sapMBtnInner,
+.whiteIconButton:active .sapMBtnInner {
+  background-color: transparent !important;
+}
+
+.whiteIconButton .sapMBtnIcon {
+  color: white !important;
+}
+
+.sapMITBFilter:hover .sapMITBText {
+  color: rgb(13, 116, 47);
+}
+
+
+.sapMITBSelected .sapMITBText {
+  color:  rgb(13, 116, 47);
+}

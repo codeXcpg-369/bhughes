@@ -35,16 +35,17 @@
                     <Button
                         icon="sap-icon://search"
                         type="Transparent"
-                        class="whiteIcon"
+                        class="whiteIconButton"
                     />
                     <Button
                         icon="sap-icon://employee"
                         type="Transparent"
-                        class="whiteIcon"
+                        class="whiteIconButton"
                     />
                 </HBox>
             </HBox>
         </VBox>
+        
         <ScrollContainer
             id="scrollContainer"
             horizontal="true"

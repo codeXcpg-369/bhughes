@@ -22,7 +22,7 @@
             icon="sap-icon://nav-back"
             type="Transparent"
             press="onNavBack"
-            class="whiteIcon"
+            class="whiteIconButton"
           />
           <Image
             src="/images/mky-logo.png"
@@ -42,12 +42,12 @@
           <Button
             icon="sap-icon://search"
             type="Transparent"
-            class="whiteIcon"
+            class="whiteIconButton"
           />
           <Button
             icon="sap-icon://employee"
             type="Transparent"
-            class="whiteIcon"
+            class="whiteIconButton"
           />
         </HBox>
       </HBox>
@@ -131,7 +131,7 @@
       expandable="false"
     >
       <items>
-        <IconTabFilter text="General">
+        <IconTabFilter class="tabHead" text="{i18n>genrl}">
   <VBox>
     <HBox>
       <VBox width="50%">
@@ -208,7 +208,7 @@
 
 
 
-<IconTabFilter text="Location">
+<IconTabFilter text="{i18n>loc}">
   <VBox>
     <HBox>
 
@@ -244,7 +244,7 @@
 
 
 
-<IconTabFilter text="Organization">
+<IconTabFilter text="{i18n>org}">
   <VBox>
     <HBox>
 
