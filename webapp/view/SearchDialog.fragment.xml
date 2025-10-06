@@ -1,0 +1,30 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+  <Dialog id="searchDialog" title="Search Equipment" draggable="true" resizable="true">
+    <VBox>
+      <SearchField
+        id="searchField"
+        placeholder="Enter Equipment Number or Location"
+        liveChange="onLiveSearch"
+        width="100%"
+      />
+      <List
+        id="searchResults"
+        items="{searchModel>/results}"
+        mode="None"
+      >
+        <StandardListItem
+          title="{searchModel>equipment_number}"
+          description="{searchModel>general/manufacturer_country}"
+          info="{searchModel>equipment_description}"
+          type="Active"
+          press="onSearchItemPress"
+
+
+        />
+      </List>
+    </VBox>
+    <endButton>
+      <Button text="Close" press="onCloseSearchDialog" />
+    </endButton>
+  </Dialog>
+</core:FragmentDefinition>

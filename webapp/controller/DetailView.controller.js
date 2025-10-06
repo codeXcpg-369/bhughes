@@ -16,16 +16,6 @@ sap.ui.define([
   this.getView().setModel(oViewModel, "viewModel");
 
     },
-
-    // _onRouteMatched: function (oEvent) {
-    //   var sIndex = oEvent.getParameter("arguments").index;
-    //   var sPath = "/equipment/" + sIndex;
-
-    //   this.getView().bindElement({
-    //     path: sPath,
-    //     model: "eqModel"
-    //   });
-    // },
     _onRouteMatched: function (oEvent) {
   var sIndex = oEvent.getParameter("arguments").index;
   var sPath = "/equipment/" + sIndex;
@@ -36,7 +26,6 @@ sap.ui.define([
     model: "eqModel"
   });
 
-  // Add statusOptions to eqModel
   var oEqModel = oView.getModel("eqModel");
   if (oEqModel) {
     oEqModel.setProperty("/statusOptions", [
@@ -87,6 +76,14 @@ onToggleMode: function () {
 },
 onSave: function () {
   sap.m.MessageToast.show("Data saved successfully.");
-}
+},
+
+
+
+
+/////////////////////////////////////////////////////////////////////////
+
+   
+
   });
 });

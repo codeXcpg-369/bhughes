@@ -40,6 +40,7 @@
           class="rightHeader"
         >
           <Button
+            
             icon="sap-icon://search"
             type="Transparent"
             class="whiteIconButton"
@@ -48,6 +49,7 @@
             icon="sap-icon://employee"
             type="Transparent"
             class="whiteIconButton"
+            
           />
         </HBox>
       </HBox>

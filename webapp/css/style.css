@@ -174,3 +174,18 @@
 .sapMITBSelected .sapMITBText {
   color:  rgb(13, 116, 47);
 }
+
+/* Prevent Page from adding its own scrollbar */
+.sapMPageScroll {
+  overflow-y: hidden !important;
+}
+
+/* Prevent FLP shell from adding scrollbar */
+.sapUiShellContent {
+  overflow-y: hidden !important;
+}
+
+/* Only apply in FLP mode */
+body.inFLP .sapUiShellContent {
+  overflow-y: hidden !important;
+}
