@@ -40,7 +40,7 @@ sap.ui.define([
     onScrollLeft: function () {
       var oInner = this.byId("scrollContainer").$().find(".sapMScrollContScroll")[0];
       if (oInner) {
-        oInner.scrollBy({ left: -300, behavior: "smooth" });
+        oInner.scrollBy({ left: -800, behavior: "smooth" });
         this.getView().getModel("scrollModel").setProperty("/showLeftScroll", false);
       }
     },
@@ -78,7 +78,7 @@ sap.ui.define([
         return;
       }
 
-
+// for frgments
 const filtered = allItems.filter(item => {
   const fields = [
     item.equipment_number,
