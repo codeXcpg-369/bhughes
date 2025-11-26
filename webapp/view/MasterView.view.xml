@@ -47,7 +47,6 @@
                 </HBox>
             </HBox>
         </VBox>
-
         <ScrollContainer
             id="scrollContainer"
             horizontal="true"
